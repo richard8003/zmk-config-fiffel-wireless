@@ -14,7 +14,7 @@
         combo_ret_i_oe {
             timeout-ms = <50>;
             key-positions = <44 30>;   // RET + I
-            bindings = <&kp Ö>;        // skriv ut 'ö'
+            bindings = <&kp A>;        // skriv ut 'ö'
         };
     };
 

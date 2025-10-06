@@ -8,17 +8,17 @@
         compatible = "zmk,combos";
         combo_esc { // ESC
             timeout-ms = <50>;
-            key-positions = <21 22>;
+            key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
         combo_ret_i_oe { // Ö
             timeout-ms = <50>;
-            key-positions = <40 21>;   // RET + I
+            key-positions = <2 3>;   // RET + I
             bindings = <&kp SCLN>;        // skriv ut 'ö'
         };
         combo_left_shift { // Ö
             timeout-ms = <50>;
-            key-positions = <15 16>;   // RET + I
+            key-positions = <4 5>;   // RET + I
             bindings = <&kp LSHFT>;        // skriv ut 'ö'
         };
         combo_right_shift { // Ö

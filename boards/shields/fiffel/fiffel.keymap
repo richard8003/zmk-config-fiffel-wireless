@@ -3,42 +3,14 @@
 #include <dt-bindings/zmk/bt.h>
 #include "keys_sv.h"
 
-// Home row mods macro
-#define HRML(k1,k2,k3,k4) &ht LSHFT k1  &ht LALT k2  &ht LCTRL k3  &ht LGUI k4
-#define HRMR(k1,k2,k3,k4) &ht RGUI k1  &ht RCTRL k2  &ht RALT k3  &ht RSHFT k4
 
-&lt {
-    tapping-term-ms = <150>;
-};
 / {
-    behaviors {
-        ht: hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <220>;
-            quick-tap-ms = <150>;
-            require-prior-idle-ms = <100>;
-            bindings = <&kp>, <&kp>;
-        };
-    };
-
     combos {
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <50>;
             key-positions = <10 11>;
             bindings = <&kp ESC>;
-        };
-        combo_tab {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp TAB>;
-        };
-        combo_sticky_shift {
-            timeout-ms = <50>;
-            key-positions = <20 21>;
-            bindings = <&sk LSHFT>;
         };
     };
 

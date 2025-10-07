@@ -148,7 +148,8 @@
        &kp LSHFT  &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K      &kp H      &kp COMMA  &kp DOT    &kp FSLH   &kp ESC
 /*    ╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯ */
 /*                                     │  R       │  T       │  T       │   │  Y       │  U       │  I       │                                  */
-                                        &kp LGUI   &lt 1 BSPC &kp SPACE      &kp RET    &kp SPACE  &kp RALT
+                                        /* &kp LGUI   &lt 1 BSPC &kp SPACE      &kp RET    &kp SPACE  &kp RALT */
+                                        &kp LGUI   &lt 1 BSPC &kp SPACE      &mt CTRL RET    &kp SPACE  &kp RALT
 /*                                     ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯ */
       >;
     };

@@ -15,6 +15,25 @@
 
 /* ---------- THE REST GOES IN THE ROOT NODE ---------- */
 
+
+  behaviors {
+    lt1_space_tap_pref: lt1_space_tap_pref {
+      compatible = "zmk,behavior-hold-tap";
+      label = "LT1_SPACE_TAP_PREF";
+      #binding-cells = <0>;
+
+      /* finjustera vid behov */
+      flavor = "tap-preferred";
+      tapping-term-ms = <200>;
+      quick-tap-ms    = <200>;
+      hold-trigger-on-release;   /* <-- nyckeln så combon hinner matcha */
+
+      /* hold = layer 1, tap = SPACE */
+      bindings = <&mo 1>, <&kp SPACE>;
+    };
+  };
+
+
 / {
   combos {
     compatible = "zmk,combos";
@@ -155,7 +174,8 @@
        &kp LSHFT  &kp Z      &kp X      &kp C      &kp D      &kp V               &kp K         &kp H      &kp COMMA  &kp DOT    &kp FSLH   &kp ESC
 /*    ╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤        ├─────────────┼──────────┼──────────┼──────────┴──────────┴──────────╯ */
 /*                                     │          │          │          │        │             │          │          │                                  */
-                                        &mt LALT ESC   &lt 1 BSPC &mt LGUI TAB    &lt RCTRL RET &lt 1 SPACE &kp RALT
+                                        /* &mt LALT ESC   &lt 1 BSPC &mt LGUI TAB    &lt RCTRL RET &lt 1 SPACE &kp RALT */
+                                        &mt LALT ESC   &lt 1 BSPC &mt LGUI TAB    &lt RCTRL RET &lt1_space_tap_pref &kp RALT
 /*                                     ╰──────────┴──────────┴──────────╯        ╰─────────────┴──────────┴──────────╯ */
                 /* &kp LGUI   &lt 1 BSPC &kp SPACE      &kp RET    &kp SPACE  &kp RALT */
 

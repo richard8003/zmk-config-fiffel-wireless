@@ -183,7 +183,7 @@
        &kp LCTRL  &kp A      &kp R      &kp S      &kp T      &kp G          &kp M      &kp N4     &kp N5     &kp N6     &kp O      &kp SQT
 /*    ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤ */
 /*    │          │          │          │          │          │          │   │          │          │          │          │          │          │ */
-       &kp LSHFT  &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K      &kp N1     &kp N2     &kp N3     &kp FSLH   &kp ESC
+       &kp LSHFT  &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K      &kp N1     &kp N2     &kp N3     &kp FSLH   &power off 
 /*    ╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯ */
 /*                                     │          │          │          │   │          │          │          │                                  */
                                         &kp LGUI   &kp BSPC   &kp SPACE      &kp RET    &kp SPACE  &kp A 

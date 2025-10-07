@@ -19,11 +19,11 @@
       bindings = <&kp SCLN>;   // 'ö' på svensk layout
     };
 
-    /* combo_right_shift { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <15 16>; */
-    /*   bindings = <&kp RSFT>;   // höger shift */
-    /* }; */
+    combo_right_shift {
+      timeout-ms = <50>;
+      key-positions = <15 16>;
+      bindings = <&kp RSFT>;   // höger shift
+    };
     /**/
     /* combo_tick { */
     /*   timeout-ms = <50>; */

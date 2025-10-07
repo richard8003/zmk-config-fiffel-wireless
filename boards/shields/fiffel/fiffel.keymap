@@ -7,10 +7,14 @@
 // exempel backspace som även är layer 1
 
 &lt {
-  flavor = "hold-preferred";   /* hold = layer */
-  tapping-term-ms = <175>;
-  quick-tap-ms    = <175>;
-  retro-tap;                   /* boolean flag */
+  /* flavor = "hold-preferred";   /* hold = layer */ */
+  /* tapping-term-ms = <175>; */
+  /* quick-tap-ms    = <175>; */
+  /* retro-tap;                   /* boolean flag */ */
+  flavor = "tap-preferred";
+  tapping-term-ms = <200>;
+  quick-tap-ms    = <200>;
+  hold-trigger-on-release;
 };
 
 /* ---------- THE REST GOES IN THE ROOT NODE ---------- */

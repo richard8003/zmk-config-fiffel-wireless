@@ -29,6 +29,12 @@
 
   combos {
     compatible = "zmk,combos";
+         
+    combo_ret_i_oe {
+      timeout-ms = <50>;
+      key-positions = <41 21>;
+      bindings = <&kp SCLN>;   // 'ö' på svensk layout
+    };
 
     combo_copy {
       timeout-ms = <50>;
@@ -132,11 +138,6 @@
         bindings = <&kp LA(LS(N9))>; // RSA(KC_9) → Right Alt (AltGr) + 9
     };
 
-    combo_ret_i_oe {
-      timeout-ms = <50>;
-      key-positions = <41 21>;
-      bindings = <&kp SCLN>;   // 'ö' på svensk layout
-    };
 
   };
 

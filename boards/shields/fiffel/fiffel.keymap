@@ -134,7 +134,7 @@
 
     combo_ret_i_oe {
       timeout-ms = <50>;
-      key-positions = <41 20>;
+      key-positions = <41 21>;
       bindings = <&kp SCLN>;   // 'ö' på svensk layout
     };
 
@@ -159,7 +159,8 @@
        &kp LSHFT  &kp Z      &kp X      &kp C      &kp D      &kp V               &kp K         &kp H      &kp COMMA  &kp DOT    &kp FSLH   &kp ESC
 /*    ╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤        ├─────────────┼──────────┼──────────┼──────────┴──────────┴──────────╯ */
 /*                                     │          │          │          │        │             │          │          │                                  */
-                                        &mt LALT ESC   &lt 1 BSPC &mt LGUI TAB    &lt RCTRL RET &lt 1 SPACE &kp RALT
+                                        &mt LALT ESC   &lt 1 BSPC &mt LGUI TAB    &lt RCTRL RET &kp SPACE &kp RALT
+                                        /* &mt LALT ESC   &lt 1 BSPC &mt LGUI TAB    &lt RCTRL RET &lt 1 SPACE &kp RALT */
 /*                                     ╰──────────┴──────────┴──────────╯        ╰─────────────┴──────────┴──────────╯ */
                 /* &kp LGUI   &lt 1 BSPC &kp SPACE      &kp RET    &kp SPACE  &kp RALT */
 

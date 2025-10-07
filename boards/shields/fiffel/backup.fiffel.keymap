@@ -3,21 +3,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-  behaviors {
-    lt: lt {
-      compatible = "zmk,behavior-hold-tap";
-      label = "LT_DEFAULT";
-      #binding-cells = <2>;          /* usage: &lt <layer> <key> */
-
-      flavor = "hold-preferred";
-      tapping-term-ms = <200>;
-      quick-tap-ms    = <200>;
-      retro-tap;                      /* <-- boolean flag (no value) */
-
-      /* Hold action, Tap action (parameterized at call site) */
-      bindings = <&mo>, <&kp>;
-    };
-  };
   combos {
     compatible = "zmk,combos";
 

@@ -148,11 +148,9 @@
        &kp LSHFT  &kp Z      &kp X      &kp C      &kp D      &kp V               &kp K         &kp H      &kp COMMA  &kp DOT    &kp FSLH   &kp ESC
 /*    ╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤        ├─────────────┼──────────┼──────────┼──────────┴──────────┴──────────╯ */
 /*                                     │          │          │          │        │             │          │          │                                  */
-                                        &mt LALT ESC   &lt 1 BSPC &mt LGUI TAB    &lt RCTRL RET &kp SPACE &kp RALT
-                                        /* &mt LALT ESC   &lt 1 BSPC &mt LGUI TAB    &lt RCTRL RET &lt 1 SPACE &kp RALT */
+                                        &mt LALT ESC   &lt 1 BSPC &mt LGUI TAB    &lt RCTRL RET &lt 1 SPACE &kp RALT
 /*                                     ╰──────────┴──────────┴──────────╯        ╰─────────────┴──────────┴──────────╯ */
                 /* &kp LGUI   &lt 1 BSPC &kp SPACE      &kp RET    &kp SPACE  &kp RALT */
-
 
       >;
     };
@@ -173,7 +171,7 @@
        &kp LCTRL  &kp A      &kp R      &kp S      &kp T      &kp G          &kp M      &kp N4     &kp N5     &kp N6     &kp O      &kp SQT
 /*    ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤ */
 /*    │          │          │          │          │          │          │   │          │          │          │          │          │          │ */
-       &kp LSHFT  &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K      &kp N1     &kp N2     &kp N3     &kp FSLH   &kp ESCf 
+       &kp LSHFT  &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K      &kp N1     &kp N2     &kp N3     &kp FSLH   &kp ESC
 /*    ╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯ */
 /*                                     │          │          │          │   │          │          │          │                                  */
                                         &kp LGUI   &kp BSPC   &kp SPACE      &kp RET    &kp SPACE  &kp A 

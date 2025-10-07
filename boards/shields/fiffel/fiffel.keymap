@@ -124,13 +124,13 @@
     combo_ret_i_ao {
       timeout-ms = <50>;
       key-positions = <40 8>;
-      bindings = <&kp SCLN>;   // 'ö' på svensk layout
+      bindings = <&kp BSPC>;   // 'ö' på svensk layout
     };
 
     combo_ret_i_ae {
       timeout-ms = <50>;
       key-positions = <40 20>;
-      bindings = <&kp SCLN>;   // 'ö' på svensk layout
+      bindings = <&kp SQT>;   // 'ö' på svensk layout
     };
 
     combo_ret_i_oe {
@@ -139,7 +139,6 @@
       bindings = <&kp SCLN>;   // 'ö' på svensk layout
     };
   };
-
 
 
   keymap {

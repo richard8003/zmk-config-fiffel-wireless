@@ -36,8 +36,7 @@
              hold-trigger-on-release;
 
              /* hold = layer 1, tap = SPACE */
-             bindings = <&mo 1>, <&kp SPACE>;
-        };
+             bindings = <&kp SPACE>, <&mo 1>; };
     };
 
   combos {

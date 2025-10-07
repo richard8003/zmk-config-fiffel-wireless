@@ -15,6 +15,18 @@
 
 /* ---------- THE REST GOES IN THE ROOT NODE ---------- */
 / {
+    behaviors {
+        ht: hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <220>;
+            quick-tap-ms = <150>;
+            require-prior-idle-ms = <100>;
+            bindings = <&kp>, <&kp>;
+        };
+    };
+
   combos {
     compatible = "zmk,combos";
 
@@ -69,7 +81,7 @@
     combo_double_quote {
       timeout-ms = <50>;
       key-positions = <7 18>;
-      bindings = <&kp LS(2)>;  
+      bindings = <&kp LS(N2)>;  
     };
 
     combo_question_mark {

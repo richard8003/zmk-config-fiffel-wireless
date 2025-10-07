@@ -25,6 +25,19 @@
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
         };
+        lt1_space_tap_pref: lt1_space_tap_pref {
+             compatible = "zmk,behavior-hold-tap";
+             label = "LT1_SPACE_TAP_PREF";
+             #binding-cells = <0>;
+
+             flavor = "tap-preferred";
+             tapping-term-ms = <200>;
+             quick-tap-ms    = <200>;
+             hold-trigger-on-release;
+
+             /* hold = layer 1, tap = SPACE */
+             bindings = <&mo 1>, <&kp SPACE>;
+        };
     };
 
   combos {

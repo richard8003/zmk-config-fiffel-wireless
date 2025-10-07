@@ -14,28 +14,7 @@
 };
 
 /* ---------- THE REST GOES IN THE ROOT NODE ---------- */
-
-
-
-
 / {
-
-      behaviors {
-    lt1_space_tap_pref: lt1_space_tap_pref {
-      compatible = "zmk,behavior-hold-tap";
-      label = "LT1_SPACE_TAP_PREF";
-      #binding-cells = <0>;
-
-      flavor = "tap-preferred";
-      tapping-term-ms = <200>;
-      quick-tap-ms    = <200>;
-      hold-trigger-on-release;
-
-      /* hold = layer 1, tap = SPACE */
-      bindings = <&mo 1>, <&kp SPACE>;
-    };
-  }; /* <---- DON'T MISS THIS ; */
-
   combos {
     compatible = "zmk,combos";
 
@@ -148,8 +127,6 @@
     };
 
   };
-        
-    
 
 
 
@@ -157,11 +134,6 @@
     compatible = "zmk,keymap";
     default_layer {
       display-name = "Default Layer";
-      // -----------------------------------------------------------------------------------------
-      // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
-      // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-      // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-      //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
       bindings = <
 
 /*    ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮        ╭─────────────┬──────────┬──────────┬──────────┬──────────┬──────────╮ */

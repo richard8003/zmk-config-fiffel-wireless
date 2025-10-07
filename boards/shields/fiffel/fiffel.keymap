@@ -24,6 +24,18 @@
       bindings = <&kp LG(C)>;
     };
 
+    combo_cut {
+      timeout-ms = <50>;
+      key-positions = <4 5>;
+      bindings = <&kp LG(X)>;
+    };
+
+    combo_paste {
+      timeout-ms = <50>;
+      key-positions = <28 29>;
+      bindings = <&kp LG(V)>;
+    };
+
     combo_esc {
       timeout-ms = <50>;
       key-positions = <19 20>;

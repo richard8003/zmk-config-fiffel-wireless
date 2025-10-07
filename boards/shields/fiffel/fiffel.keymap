@@ -83,6 +83,43 @@
       key-positions = <8 9>;
       bindings = <&kp LS(1)>;  
     };
+
+    combo_opening_bracket {
+        timeout-ms = <50>;
+        key-positions = <16 19>;   // ersätt X Y med dina knappindex
+        bindings = <&kp LA(N8)>; // LALT(KC_8)
+    };
+
+    combo_closing_bracket {
+        timeout-ms = <50>;
+        key-positions = <16 20>;   
+        bindings = <&kp LA(N9)>; // LALT(KC_9)
+    };
+
+    combo_opening_parent {
+        timeout-ms = <50>;
+        key-positions = <16 7>;   
+        bindings = <&kp LS(N8)>; // LSFT(KC_8)
+    };
+
+    combo_closing_parent {
+        timeout-ms = <50>;
+        key-positions = <16 8>;   
+        bindings = <&kp LS(N9)>; // LSFT(KC_9)
+    };
+
+    combo_opening_curly {
+        timeout-ms = <50>;
+        key-positions = <16 31>;   
+        bindings = <&kp RA(N8)>; // RSA(KC_8) → Right Alt (AltGr) + 8
+    };
+
+    combo_closing_curly {
+        timeout-ms = <50>;
+        key-positions = <16 32>;   
+        bindings = <&kp RA(N9)>; // RSA(KC_9) → Right Alt (AltGr) + 9
+    };
+
   };
         
 

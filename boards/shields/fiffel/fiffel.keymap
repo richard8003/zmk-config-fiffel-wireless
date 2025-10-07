@@ -4,42 +4,35 @@
 
 
 / {
-    combos {
-        compatible = "zmk,combos";
-        combo_esc { // ESC
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
-        };
-        combo_ret_i_oe { // Ö
-            timeout-ms = <50>;
-            key-positions = <2 3>;   // RET + I
-            bindings = <&kp SCLN>;        // skriv ut 'ö'
-        };
-        combo_right_shift { // Ö
-            timeout-ms = <50>;
-            key-positions = <15 16>;   // RET + I
-            bindings = <&kp LSHFT>;        // skriv ut 'ö'
-        };
-        combo_tick { // ' 
-            timeout-ms = <50>;
-            key-positions = <7 8>;   // RET + I
-            bindings = <&kp BSLS>;        // skriv ut 'ö'
-        };
-            
+  combos {
+    compatible = "zmk,combos";
 
-
-        /* combo_left_shift { // Ö */
-        /*     timeout-ms = <50>; */
-        /*     key-positions = <19 20>;   // RET + I */
-        /*     bindings = <&kp LSHFT>;        // skriv ut 'ö' */
-        /* }; */
-        /* combo_copy { */
-        /*     timeout-ms = <50>; */
-        /*     key-positions = <16 17>;   // byt till rätt index för dina tangenter */
-        /*     bindings = <&kp LGUI &kp C>; */
-        /* }; */
+    combo_esc {
+      timeout-ms = <50>;
+      key-positions = <0 1>;
+      bindings = <&kp ESC>;
     };
+
+    combo_ret_i_oe {
+      timeout-ms = <50>;
+      key-positions = <2 3>;
+      bindings = <&kp SCLN>;   // 'ö' på svensk layout
+    };
+
+    combo_right_shift {
+      timeout-ms = <50>;
+      key-positions = <15 16>;
+      bindings = <&kp RSFT>;   // höger shift
+    };
+
+    combo_tick {
+      timeout-ms = <50>;
+      key-positions = <7 8>;
+      bindings = <&kp BKSLS>;  // backslash
+    };
+  };
+
+
 
   keymap {
     compatible = "zmk,keymap";

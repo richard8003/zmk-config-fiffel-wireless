@@ -121,12 +121,23 @@
         bindings = <&kp LA(LS(N9))>; // RSA(KC_9) → Right Alt (AltGr) + 9
     };
 
+    combo_ret_i_ao {
+      timeout-ms = <50>;
+      key-positions = <40 8>;
+      bindings = <&kp SCLN>;   // 'ö' på svensk layout
+    };
+
+    combo_ret_i_ae {
+      timeout-ms = <50>;
+      key-positions = <40 20>;
+      bindings = <&kp SCLN>;   // 'ö' på svensk layout
+    };
+
     combo_ret_i_oe {
       timeout-ms = <50>;
       key-positions = <40 21>;
       bindings = <&kp SCLN>;   // 'ö' på svensk layout
     };
-
   };
 
 

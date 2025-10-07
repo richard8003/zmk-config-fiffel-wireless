@@ -3,6 +3,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 /* ---------- BEHAVIOR OVERRIDE (TOP-LEVEL, not inside /{ }) ---------- */
+// Den här gör att jag kan hålla inne en knapp för upprepning även om jag har en modifier på samma knapp
+// exempel backspace som även är layer 1
 &lt {
   flavor = "hold-preferred";   /* hold = layer */
   tapping-term-ms = <200>;
@@ -28,9 +30,14 @@
       bindings = <&kp SCLN>;   // 'ö' på svensk layout
     };
 
-    combo_right_shift {
+    combo_left_shift {
       timeout-ms = <50>;
       key-positions = <15 16>;
+      bindings = <&kp RSFT>;   // höger shift
+    };
+    combo_right_shift {
+      timeout-ms = <50>;
+      key-positions = <19 20>;
       bindings = <&kp RSFT>;   // höger shift
     };
     combo_tick {

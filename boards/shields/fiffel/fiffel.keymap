@@ -39,7 +39,7 @@
          &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp O    &kp BSPC
          &kp LCTRL &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp O    &kp SQT
          &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                     &kp LGUI &lt 2 BSPC &kp SPACE   &kp RET &kp SPACE &kp RALT
+                     &kp LGUI &kp BSPC &kp SPACE   &kp RET &kp SPACE &kp RALT
                       /* &kp LGUI &none &kp SPACE   &kp RET &none &kp RALT */
       >;
         };
@@ -48,7 +48,7 @@
       bindings = <
          &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp N7  &kp N8 &kp N9  &kp O    &kp BSPC
          &kp LCTRL &kp A &kp R &kp S &kp T &kp G   &kp M &kp N4  &kp N5 &kp N6  &kp O    &kp SQT
-         &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp N1  &kp N2 &kp N3  &kp FSLH &kp ESC
+         &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp N1  &kp N2 &kp N  &kp FSLH &kp ESC
                      &kp LGUI &kp BSPC &kp SPACE   &kp RET &kp SPACE &kp RALT
                       /* &kp LGUI &none &kp SPACE   &kp RET &none &kp RALT */
       >;

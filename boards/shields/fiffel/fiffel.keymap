@@ -161,17 +161,11 @@
 /*                                     │          │          │          │        │             │          │          │                                  */
                                         &mt LALT ESC   &lt 1 BSPC &mt LGUI TAB    &lt RCTRL RET &lt 1 SPACE &kp RALT
 /*                                     ╰──────────┴──────────┴──────────╯        ╰─────────────┴──────────┴──────────╯ */
-                /* &kp LGUI   &lt 1 BSPC &kp SPACE      &kp RET    &kp SPACE  &kp RALT */
 
       >;
     };
     layer_two {
       display-name = "Layer two";
-      // -----------------------------------------------------------------------------------------
-      // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
-      // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-      // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-      //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
       bindings = <
 
 /*    ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮ */
@@ -188,11 +182,6 @@
                                         &kp LGUI   &kp BSPC   &kp SPACE      &kp RET    &kp SPACE  &kp A 
 /*                                     ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯ */
 
-         /* &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp N7  &kp N8  &kp N9  &kp O    &kp BSPC */
-         /* &kp LCTRL &kp A &kp R &kp S &kp T &kp G   &kp M &kp N4  &kp N5  &kp N6  &kp O    &kp SQT */
-         /* &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp N1  &kp N2  &kp N3  &kp FSLH &kp ESC */
-         /*             &kp LGUI &kp BSPC &kp SPACE   &kp RET &kp SPACE &kp A  */
-                      /* &kp LGUI &none &kp SPACE   &kp RET &none &kp RALT */
       >;
     };
 

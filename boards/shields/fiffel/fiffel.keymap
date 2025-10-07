@@ -26,10 +26,11 @@
     };
     combo_tick {
       timeout-ms = <50>;
-      key-positions = <7 19>;
-      bindings = <&kp SQT>;  
+      key-positions = <8 19>;
+      bindings = <&kp BSLH>;  
     };
   };
+        
 
 
 

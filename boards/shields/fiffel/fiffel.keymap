@@ -149,7 +149,8 @@
 /*    ╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯ */
 /*                                     │          │          │          │   │          │          │          │                                  */
                                         /* &kp LGUI   &lt 1 BSPC &kp SPACE      &kp RET    &kp SPACE  &kp RALT */
-                                        &kp LGUI   &lt 1 BSPC &kp SPACE      &kp RET    &kp SPACE  &kp RALT
+                                        /* &kp LGUI   &lt 1 BSPC &kp SPACE      &kp RET    &kp SPACE  &kp RALT */
+                                        &kp LGUI   &lt 1 BSPC &kp SPACE      &mt RCTRL RET    &kp SPACE  &kp RALT
 /*                                     ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯ */
       >;
     };

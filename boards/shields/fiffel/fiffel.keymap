@@ -5,11 +5,19 @@
 /* ---------- BEHAVIOR OVERRIDE (TOP-LEVEL, not inside /{ }) ---------- */
 // Den här gör att jag kan hålla inne en knapp för upprepning även om jag har en modifier på samma knapp
 // exempel backspace som även är layer 1
+
+/* &lt { */
+/*   flavor = "hold-preferred";   /* hold = layer */ */
+/*   tapping-term-ms = <200>; */
+/*   quick-tap-ms    = <200>; */
+/*   retro-tap;                   /* boolean flag */ */
+/* }; */
+
 &lt {
-  flavor = "hold-preferred";   /* hold = layer */
+  flavor = "tap-preferred";   /* snabb tryck/släpp = TAP */
   tapping-term-ms = <200>;
   quick-tap-ms    = <200>;
-  retro-tap;                   /* boolean flag */
+  hold-trigger-on-release;    /* undvik att hold aktiveras innan du släpper */
 };
 
 /* ---------- THE REST GOES IN THE ROOT NODE ---------- */

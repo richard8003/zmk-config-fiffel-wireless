@@ -4,22 +4,22 @@
 
 
 / {
-  behaviors {
-    bspc_lt1_holdpref_quick: bspc_lt1_holdpref_quick {
-      compatible = "zmk,behavior-hold-tap";
-      label = "BSPC_LT1_HOLDPREF_QUICK";
-      #binding-cells = <0>;
-
-      /* finjustera efter känsla */
-      tapping-term-ms = <200>;   /* gräns för tap vs hold */
-      quick-tap-ms     = <200>;  /* dubbeltrycks-fönster */
-      retro-tap        = <true>; /* gör andra trycket till tap direkt */
-      flavor           = "hold-preferred";
-
-      /* hold = layer 1, tap = backspace */
-      bindings = <&mo 1>, <&kp BSPC>;
-    };
-  };
+  /* behaviors { */
+  /*   bspc_lt1_holdpref_quick: bspc_lt1_holdpref_quick { */
+  /*     compatible = "zmk,behavior-hold-tap"; */
+  /*     label = "BSPC_LT1_HOLDPREF_QUICK"; */
+  /*     #binding-cells = <0>; */
+  /**/
+  /*     /* finjustera efter känsla */ */
+  /*     tapping-term-ms = <200>;   /* gräns för tap vs hold */ */
+  /*     quick-tap-ms     = <200>;  /* dubbeltrycks-fönster */ */
+  /*     retro-tap        = <true>; /* gör andra trycket till tap direkt */ */
+  /*     flavor           = "hold-preferred"; */
+  /**/
+  /*     /* hold = layer 1, tap = backspace */ */
+  /*     bindings = <&mo 1>, <&kp BSPC>; */
+  /*   }; */
+  /* }; */
 
   combos {
     compatible = "zmk,combos";
@@ -64,8 +64,8 @@
          &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp O    &kp BSPC
          &kp LCTRL &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp O    &kp SQT
          &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                     &kp LGUI &&bspc_lt1_holdpref_quickC &kp SPACE   &kp RET &kp SPACE &kp RALT
-                     /* &kp LGUI &lt 1 BSPC &kp SPACE   &kp RET &kp SPACE &kp RALT */
+                     /* &kp LGUI &&bspc_lt1_holdpref_quickC &kp SPACE   &kp RET &kp SPACE &kp RALT */
+                     &kp LGUI &lt 1 BSPC &kp SPACE   &kp RET &kp SPACE &kp RALT
                       /* &kp LGUI &none &kp SPACE   &kp RET &none &kp RALT */
       >;
     };

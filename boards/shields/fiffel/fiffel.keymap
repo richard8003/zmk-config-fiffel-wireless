@@ -15,26 +15,9 @@
 
 /* ---------- THE REST GOES IN THE ROOT NODE ---------- */
 / {
-    behaviors {
-        ht: hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <220>;
-            quick-tap-ms = <150>;
-            require-prior-idle-ms = <100>;
-            bindings = <&kp>, <&kp>;
-        };
-    };
 
   combos {
     compatible = "zmk,combos";
-         
-    combo_ret_i_oe {
-      timeout-ms = <50>;
-      key-positions = <41 21>;
-      bindings = <&kp SCLN>;   // 'ö' på svensk layout
-    };
 
     combo_copy {
       timeout-ms = <50>;
@@ -138,6 +121,11 @@
         bindings = <&kp LA(LS(N9))>; // RSA(KC_9) → Right Alt (AltGr) + 9
     };
 
+    combo_ret_i_oe {
+      timeout-ms = <50>;
+      key-positions = <41 21>;
+      bindings = <&kp SCLN>;   // 'ö' på svensk layout
+    };
 
   };
 
@@ -165,6 +153,7 @@
 /*                                     ╰──────────┴──────────┴──────────╯        ╰─────────────┴──────────┴──────────╯ */
                 /* &kp LGUI   &lt 1 BSPC &kp SPACE      &kp RET    &kp SPACE  &kp RALT */
 
+
       >;
     };
     layer_two {
@@ -184,7 +173,7 @@
        &kp LCTRL  &kp A      &kp R      &kp S      &kp T      &kp G          &kp M      &kp N4     &kp N5     &kp N6     &kp O      &kp SQT
 /*    ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤ */
 /*    │          │          │          │          │          │          │   │          │          │          │          │          │          │ */
-       &kp LSHFT  &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K      &kp N1     &kp N2     &kp N3     &kp FSLH   &power off 
+       &kp LSHFT  &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K      &kp N1     &kp N2     &kp N3     &kp FSLH   &kp ESCf 
 /*    ╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯ */
 /*                                     │          │          │          │   │          │          │          │                                  */
                                         &kp LGUI   &kp BSPC   &kp SPACE      &kp RET    &kp SPACE  &kp A 

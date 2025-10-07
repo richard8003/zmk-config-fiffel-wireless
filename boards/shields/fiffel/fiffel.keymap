@@ -124,7 +124,7 @@
     combo_ret_i_ao {
       timeout-ms = <50>;
       key-positions = <40 8>;
-      bindings = <&kp BSPC>;   // 'ö' på svensk layout
+      bindings = <&kp LBKT>;   // 'ö' på svensk layout
     };
 
     combo_ret_i_ae {
@@ -146,6 +146,7 @@
     default_layer {
       display-name = "Default Layer";
       bindings = <
+                
 
 /*    ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮        ╭─────────────┬──────────┬──────────┬──────────┬──────────┬──────────╮ */
 /*    │          │          │          │          │          │          │        │             │          │          │          │          │          │ */

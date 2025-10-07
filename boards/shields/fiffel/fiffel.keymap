@@ -42,6 +42,11 @@
       bindings = <&kp ESC>;
     };
             
+    combo_alt {
+      timeout-ms = <50>;
+      key-positions = <14 15>;
+      bindings = <&kp LALT>;
+    };
             
     combo_ret_i_oe {
       timeout-ms = <50>;
@@ -148,9 +153,10 @@
        &kp LSHFT  &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K         &kp H      &kp COMMA  &kp DOT    &kp FSLH   &kp ESC
 /*    ╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤   ├─────────────┼──────────┼──────────┼──────────┴──────────┴──────────╯ */
 /*                                     │          │          │          │   │             │          │          │                                  */
-                                        &mt LALT ESC   &lt 1 BSPC &mt LGUI TAB      &mt RCTRL RET    &kp SPACE  &kp RALT
+                                        &mt LALT ESC   &lt 1 BSPC &mt LGUI TAB      &mt RCTRL RET    &lt 1 SPACE  &kp RALT
 /*                                     ╰──────────┴──────────┴──────────╯   ╰─────────────┴──────────┴──────────╯ */
                 /* &kp LGUI   &lt 1 BSPC &kp SPACE      &kp RET    &kp SPACE  &kp RALT */
+
       >;
     };
     layer_two {

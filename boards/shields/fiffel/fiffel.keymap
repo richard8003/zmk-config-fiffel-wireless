@@ -11,7 +11,7 @@
 &lt {
   flavor = "hold-preferred";   /* hold = layer */
   tapping-term-ms = <175>;
-  quick-tap-ms    = <175>;
+  quick-tap-ms    = <50>;
   retro-tap;                   /* boolean flag */
 };
 

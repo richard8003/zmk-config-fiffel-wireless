@@ -10,16 +10,30 @@
 
 &lt {
   flavor = "hold-preferred";   /* hold = layer */
-  tapping-term-ms = <175>;
-  quick-tap-ms    = <150>;
+  tapping-term-ms = <130>;
+  quick-tap-ms    = <130>;
+  /* tapping-term-ms = <175>; */
+  /* quick-tap-ms    = <150>; */
   retro-tap;                   /* boolean flag */
 };
 
 /* ---------- THE REST GOES IN THE ROOT NODE ---------- */
 / {
 
+        behaviors {
+        ht: hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <220>;
+            quick-tap-ms = <150>;
+            require-prior-idle-ms = <100>;
+            bindings = <&kp>, <&kp>;
+        };
+    };
+
   combos {
-    /* #include "combo_strings.dtsi" */
+    #include "combo_strings.dtsi"
     compatible = "zmk,combos";
 
     combo_copy {

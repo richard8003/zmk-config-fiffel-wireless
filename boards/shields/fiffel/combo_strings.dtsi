@@ -111,7 +111,6 @@ combo_email_address {
   timeout-ms = <50>;
   key-positions = <POS_E POS_D>;
   bindings = <&kp LC(LG(LA(Q)))>;
-    email address
 };
 
 //associated

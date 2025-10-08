@@ -2,7 +2,7 @@
 
 / {
   combos {
-    combo_copy {
+    combo_please {
       timeout-ms = <50>;
       key-positions = <POS_P POS_L>;
       bindings = <&kp X>;

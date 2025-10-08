@@ -3,5 +3,11 @@
 combo_please {
   timeout-ms = <50>;
   key-positions = <POS_P POS_L>;
-  bindings = <&kp X>;
+  bindings = <&kp P &kp L &kp E &kp A &kp S &kp E>;
+};
+
+combo_academy {
+  timeout-ms = <50>;
+  key-positions = <POS_A POS_Y>;
+  bindings = <&kp A &kp C &kp A &kp D &kp E &kp M &kp Y>;
 };

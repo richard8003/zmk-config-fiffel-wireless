@@ -4,14 +4,140 @@
 combo_please {
   timeout-ms = <50>;
   key-positions = <POS_P POS_L>;
-  bindings = <&kp LC(LG(LA(LS(H))))>;
+  bindings = <&kp LC(LG(LA(A)))>;
 };
 
 // academy
 combo_academy {
   timeout-ms = <50>;
   key-positions = <POS_A POS_Y>;
-  bindings = <&kp Z>;
+  bindings = <&kp LC(LG(LA(B)))>;
 };
 
-    
+// affiliation
+combo_ {
+  timeout-ms = <50>;
+  key-positions = <POS_A POS_Y>;
+  bindings = <&kp LC(LG(LA(B)))>;
+};
+
+// federation
+combo_ {
+  timeout-ms = <50>;
+  key-positions = <POS_A POS_Y>;
+  bindings = <&kp LC(LG(LA(B)))>;
+};
+
+// password
+combo_ {
+  timeout-ms = <50>;
+  key-positions = <POS_A POS_Y>;
+  bindings = <&kp LC(LG(LA(B)))>;
+};
+
+// page"
+combo_ {
+  timeout-ms = <50>;
+  key-positions = <POS_A POS_Y>;
+  bindings = <&kp LC(LG(LA(B)))>;
+};
+
+// question"
+combo_ {
+  timeout-ms = <50>;
+  key-positions = <POS_A POS_Y>;
+  bindings = <&kp LC(LG(LA(B)))>;
+};
+
+// register"
+combo_ {
+  timeout-ms = <50>;
+  key-positions = <POS_A POS_Y>;
+  bindings = <&kp LC(LG(LA(B)))>;
+};
+
+// registration
+combo_ {
+  timeout-ms = <50>;
+  key-positions = <POS_A POS_Y>;
+  bindings = <&kp LC(LG(LA(B)))>;
+};
+
+//event
+combo_ {
+  timeout-ms = <50>;
+  key-positions = <POS_A POS_Y>;
+  bindings = <&kp LC(LG(LA(B)))>;
+};
+
+//user
+combo_ {
+  timeout-ms = <50>;
+  key-positions = <POS_A POS_Y>;
+  bindings = <&kp LC(LG(LA(B)))>;
+};
+
+//access
+combo_ {
+  timeout-ms = <50>;
+  key-positions = <POS_A POS_Y>;
+  bindings = <&kp LC(LG(LA(B)))>;
+};
+
+//account
+combo_ {
+  timeout-ms = <50>;
+  key-positions = <POS_A POS_Y>;
+  bindings = <&kp LC(LG(LA(B)))>;
+};
+
+//Thank you for your email.\n
+combo_ {
+  timeout-ms = <50>;
+  key-positions = <POS_A POS_Y>;
+  bindings = <&kp LC(LG(LA(B)))>;
+};
+
+//organiser
+combo_ {
+  timeout-ms = <50>;
+  key-positions = <POS_A POS_Y>;
+  bindings = <&kp LC(LG(LA(B)))>;
+};
+
+//Smoothcomp
+combo_ {
+  timeout-ms = <50>;
+  key-positions = <POS_A POS_Y>;
+  bindings = <&kp LC(LG(LA(B)))>;
+};
+
+//email address
+combo_ {
+  timeout-ms = <50>;
+  key-positions = <POS_A POS_Y>;
+  bindings = <&kp LC(LG(LA(B)))>;
+};
+
+//associated
+combo_ {
+  timeout-ms = <50>;
+  key-positions = <POS_A POS_Y>;
+  bindings = <&kp LC(LG(LA(B)))>;
+};
+
+//Have a nice day!
+combo_ {
+  timeout-ms = <50>;
+  key-positions = <POS_A POS_Y>;
+  bindings = <&kp LC(LG(LA(B)))>;
+};
+
+//admin
+combo_ {
+  timeout-ms = <50>;
+  key-positions = <POS_A POS_Y>;
+  bindings = <&kp LC(LG(LA(B)))>;
+};
+
+

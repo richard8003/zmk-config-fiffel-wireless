@@ -23,8 +23,8 @@
 
     combo_copy {
       timeout-ms = <50>;
-      key-positions = <POS_T POS_G>;
-      /* key-positions = <16 17>; */
+      /* key-positions = <POS_T POS_G>; */
+      key-positions = <16 17>;
       bindings = <&kp LG(C)>;
     };
 

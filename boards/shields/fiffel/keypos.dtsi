@@ -34,12 +34,12 @@
 #define POS_DOT 33
 #define POS_SLSH 34
 #define POS_R_SHIFT 35
-#define POS_VT_1 36
-#define POS_VT_2 37
-#define POS_VT_3 38
-#define POS_RT_1 39
-#define POS_RT_2 40
-#define POS_RT_3 41
+#define POS_ALT 36
+#define POS_BACKSPACE 37
+#define POS_TAB 38
+#define POS_ENTER 39
+#define POS_SPACE 40
+#define POS_RT3 41
 
 
 

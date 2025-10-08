@@ -15,129 +15,141 @@ combo_academy {
 };
 
 // affiliation
-combo_ {
+combo_affiliation {
   timeout-ms = <50>;
-  key-positions = <POS_A POS_Y>;
-  bindings = <&kp LC(LG(LA(B)))>;
+  key-positions = <POS_A POS_F POS_N>;
+  bindings = <&kp LC(LG(LA(C)))>;
 };
 
 // federation
-combo_ {
+combo_federation {
   timeout-ms = <50>;
-  key-positions = <POS_A POS_Y>;
-  bindings = <&kp LC(LG(LA(B)))>;
+  key-positions = <POS_F POS_E POS_N>;
+  bindings = <&kp LC(LG(LA(D)))>;
 };
 
-// password
-combo_ {
+// page
+combo_page {
   timeout-ms = <50>;
-  key-positions = <POS_A POS_Y>;
-  bindings = <&kp LC(LG(LA(B)))>;
+  key-positions = <POS_P POS_E>;
+  bindings = <&kp LC(LG(LA(F)))>;
 };
 
-// page"
-combo_ {
+// question
+combo_question {
   timeout-ms = <50>;
-  key-positions = <POS_A POS_Y>;
-  bindings = <&kp LC(LG(LA(B)))>;
+  key-positions = <POS_Q POS_N>;
+  bindings = <&kp LC(LG(LA(G)))>;
 };
 
-// question"
-combo_ {
+// register
+combo_register {
   timeout-ms = <50>;
-  key-positions = <POS_A POS_Y>;
-  bindings = <&kp LC(LG(LA(B)))>;
-};
-
-// register"
-combo_ {
-  timeout-ms = <50>;
-  key-positions = <POS_A POS_Y>;
-  bindings = <&kp LC(LG(LA(B)))>;
+  key-positions = <POS_R POS_E>;
+  bindings = <&kp LC(LG(LA(H)))>;
 };
 
 // registration
-combo_ {
+combo_registration {
   timeout-ms = <50>;
-  key-positions = <POS_A POS_Y>;
-  bindings = <&kp LC(LG(LA(B)))>;
+  key-positions = <POS_R POS_N>;
+  bindings = <&kp LC(LG(LA(I)))>;
 };
 
 //event
-combo_ {
+combo_event {
   timeout-ms = <50>;
-  key-positions = <POS_A POS_Y>;
-  bindings = <&kp LC(LG(LA(B)))>;
+  key-positions = <POS_E POS_V>;
+  bindings = <&kp LC(LG(LA(J)))>;
 };
 
 //user
-combo_ {
+combo_user {
   timeout-ms = <50>;
-  key-positions = <POS_A POS_Y>;
-  bindings = <&kp LC(LG(LA(B)))>;
+  key-positions = <POS_U POS_S POS_R>;
+  bindings = <&kp LC(LG(LA(K)))>;
 };
 
 //access
-combo_ {
+combo_access {
   timeout-ms = <50>;
-  key-positions = <POS_A POS_Y>;
-  bindings = <&kp LC(LG(LA(B)))>;
+  key-positions = <POS_X POS_S>;
+  bindings = <&kp LC(LG(LA(L)))>;
 };
 
 //account
-combo_ {
+combo_account {
   timeout-ms = <50>;
-  key-positions = <POS_A POS_Y>;
-  bindings = <&kp LC(LG(LA(B)))>;
+  key-positions = <POS_A POS_O>;
+  bindings = <&kp LC(LG(LA(M)))>;
 };
 
 //Thank you for your email.\n
-combo_ {
+combo_tfe {
   timeout-ms = <50>;
-  key-positions = <POS_A POS_Y>;
-  bindings = <&kp LC(LG(LA(B)))>;
+  key-positions = <POS_T POS_F POS_E>;
+  bindings = <&kp LC(LG(LA(N)))>;
 };
 
 //organiser
-combo_ {
+combo_organiser {
   timeout-ms = <50>;
-  key-positions = <POS_A POS_Y>;
-  bindings = <&kp LC(LG(LA(B)))>;
+  key-positions = <POS_G POS_O>;
+  bindings = <&kp LC(LG(LA(O)))>;
 };
 
 //Smoothcomp
-combo_ {
+combo_smoothcomp {
   timeout-ms = <50>;
-  key-positions = <POS_A POS_Y>;
-  bindings = <&kp LC(LG(LA(B)))>;
+  key-positions = <POS_S POS_M POS_O>;
+  bindings = <&kp LC(LG(LA(P)))>;
 };
 
 //email address
-combo_ {
+combo_email_address {
   timeout-ms = <50>;
-  key-positions = <POS_A POS_Y>;
-  bindings = <&kp LC(LG(LA(B)))>;
+  key-positions = <POS_E POS_D>;
+  bindings = <&kp LC(LG(LA(Q)))>;
 };
 
 //associated
-combo_ {
+combo_associated {
   timeout-ms = <50>;
-  key-positions = <POS_A POS_Y>;
-  bindings = <&kp LC(LG(LA(B)))>;
+  key-positions = <POS_A POS_S POS_O>;
+  bindings = <&kp LC(LG(LA(R)))>;
 };
 
 //Have a nice day!
-combo_ {
+combo_have_a_nice_day {
   timeout-ms = <50>;
-  key-positions = <POS_A POS_Y>;
-  bindings = <&kp LC(LG(LA(B)))>;
+  key-positions = <POS_K POS_H POS_COMM>;
+  bindings = <&kp LC(LG(LA(S)))>;
 };
 
 //admin
-combo_ {
+combo_admin {
   timeout-ms = <50>;
-  key-positions = <POS_A POS_Y>;
-  bindings = <&kp LC(LG(LA(B)))>;
+  key-positions = <POS_A POS_M>;
+  bindings = <&kp LC(LG(LA(T)))>;
 };
 
-
+//--------------------------
+// please
+// academy
+// affiliation
+// federation
+// page
+// question
+// register
+// registration
+// event
+// user
+// access
+// account
+// Thank you for your email.\n
+// organiser
+// Smoothcomp
+// email address
+// associated
+// Have a nice day!
+// admin

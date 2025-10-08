@@ -23,9 +23,9 @@
 
     combo_copy {
       timeout-ms = <50>;
-      key-positions = <16 17>;
-      bindings = <POS_T POS_G>;
-      /* bindings = <&kp LG(C)>; */
+      key-positions = <POS_T POS_G>;
+      /* key-positions = <16 17>; */
+      bindings = <&kp LG(C)>;
     };
 
     combo_cut {

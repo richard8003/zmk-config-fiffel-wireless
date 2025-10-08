@@ -4,7 +4,7 @@
 combo_please {
   timeout-ms = <50>;
   key-positions = <POS_P POS_L>;
-  bindings = <&kp Y>;
+  bindings = <&kp LC(LG(LA(LS(A))))>;
 };
 
 // academy

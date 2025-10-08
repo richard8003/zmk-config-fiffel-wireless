@@ -112,6 +112,7 @@ combo_email_address {
   key-positions = <POS_E POS_D>;
   bindings = <&kp LC(LG(LA(Q)))>;
 };
+p
 
 //associated
 combo_associated {

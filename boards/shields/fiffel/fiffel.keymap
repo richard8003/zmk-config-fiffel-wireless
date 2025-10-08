@@ -175,7 +175,7 @@
        &kp LSHFT  &kp Z      &kp X      &kp C      &kp D      &kp V               &kp K         &kp H      &kp COMMA  &kp DOT    &kp FSLH   &kp ESC
 /*    ╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤        ├─────────────┼──────────┼──────────┼──────────┴──────────┴──────────╯ */
 /*                                     │          │          │          │        │             │          │          │                                  */
-                                        &mt LALT ESC   &lt 1 BSPC &mt LGUI TAB    &lt RCTRL RET &lt 1 SPACE &kp RALT
+                                        &mt LALT ESC   &lt 1 BSPC &mt LGUI TAB    &mt RCTRL RET &lt 1 SPACE &kp RALT
 /*                                     ╰──────────┴──────────┴──────────╯        ╰─────────────┴──────────┴──────────╯ */
 
       >;

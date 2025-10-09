@@ -68,7 +68,6 @@
       bindings = <&kp LGUI(A) >;
     };
 
-        accountisregistertnoairegisters[
 
     combo_poweroff {
       timeout-ms = <50>;

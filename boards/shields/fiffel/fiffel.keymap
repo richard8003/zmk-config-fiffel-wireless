@@ -13,10 +13,10 @@
   flavor = "tap-preferred";
   tapping-term-ms = <175>;   // ↓ faster tap recognition
   quick-tap-ms    = <50>;
-  /* retro-tap; */
+  retro-tap;
 };
 
-
+/ {
 
   combos {
     #include "combo_strings.dtsi"

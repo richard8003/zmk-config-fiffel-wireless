@@ -160,11 +160,11 @@ combo_delete_word_back  {
 };
 
 
-combo_jump_one_word_back {
-  timeout-ms = <50>;
-  key-positions = <POS_X POS_C>;
-  bindings = <&kp LA(LEFT)>;
-};
+/* combo_jump_one_word_back { */
+/*   timeout-ms = <50>; */
+/*   key-positions = <POS_X POS_C>; */
+/*   bindings = <&kp LA(LEFT)>; */
+/* }; */
 
 /* combo_jump_one_word_forward  { */
 /*   timeout-ms = <50>; */

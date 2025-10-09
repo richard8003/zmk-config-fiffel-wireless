@@ -143,6 +143,7 @@
         bindings = <&kp LA(LS(N9))>; // RSA(KC_9) → Right Alt (AltGr) + 9
     };
 
+            xzxcccrstgttt     
     combo_ret_i_ao {
       timeout-ms = <50>;
       key-positions = <40 8>;

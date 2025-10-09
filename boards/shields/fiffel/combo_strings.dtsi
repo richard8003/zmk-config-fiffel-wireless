@@ -146,3 +146,15 @@ combo_admin {
   key-positions = <POS_W POS_F>; // adjust to your actual keys
   bindings = <&kp LC(LS(TAB))>;
 };
+
+combo_delete_line {
+  timeout-ms = <50>;
+  key-positions = <10 11>;  // chord Q + P
+  bindings = <&kp LA(BSPC)>;
+};
+
+combo_delete_word_back  {
+  timeout-ms = <50>;
+  key-positions = <POS_R POS_S POS_T>;  // chord Q + P
+  bindings = <&kp LA(LS(BSPC))>;
+};

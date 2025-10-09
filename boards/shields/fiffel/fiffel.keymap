@@ -200,7 +200,8 @@
     combo_bajs {
       timeout-ms = <50>;
       key-positions = <3 16>;
-      bindings = <&kp A>;   // 'ö' på svensk layout
+      bindings = <&kp LC(TAB)>;   // 'ö' på svensk layout
+
     };
   };
 

@@ -65,7 +65,7 @@
     /* }; */
 
     combo_next_browser_tab {
-      timeout-ms = <50>;
+      timeout-ms = <75>;
       key-positions = <POS_F POS_T>;
       bindings = <&kp A)>;
     };

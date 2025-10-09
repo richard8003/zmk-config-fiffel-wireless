@@ -19,7 +19,6 @@
 /* ---------- THE REST GOES IN THE ROOT NODE ---------- */
 / {
 
-
   combos {
     #include "combo_strings.dtsi"
     compatible = "zmk,combos";

@@ -1,5 +1,4 @@
 #include "keypos.dtsi"
-/* #include <dt-bindings/zmk/modifiers.h> */
 
 // please
 combo_please {
@@ -134,10 +133,9 @@ combo_admin {
   bindings = <&kp LC(LG(LA(T)))>;
 };
 
-//--------------------------
-// please
-// academy
-// affiliation
+// please please
+// academy academy
+// affiliation fanfanfanfnafan
 // federation
 // page
 // question

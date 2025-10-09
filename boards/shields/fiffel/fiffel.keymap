@@ -197,11 +197,15 @@
       key-positions = <40 21>;
       bindings = <&kp SCLN>;   // 'ö' på svensk layout
     };
-    combo_bajs {
+    combo_tabnext {
       timeout-ms = <50>;
       key-positions = <3 16>;
       bindings = <&kp LC(TAB)>;   // 'ö' på svensk layout
-
+    };
+    combo_tabprev {
+      timeout-ms = <50>;
+      key-positions = <3 16>;
+      bindings = <&kp LC(LS(TAB))>;   // 'ö' på svensk layout
     };
   };
 

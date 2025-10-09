@@ -14,9 +14,9 @@
   /* tapping-term-ms = <120>;   // ↓ faster tap recognition */
   /* quick-tap-ms    = <200>; */
   /* retro-tap; */
-  flavor = "hold-preferred";   /* hold = layer */
-  tapping-term-ms = <175>;
-  quick-tap-ms    = <150>;
+  /* flavor = "hold-preferred";   /* hold = layer */ */
+  tapping-term-ms = <150>;
+  quick-tap-ms    = <50>;
   retro-tap;                   /* boolean flag */
 };
 

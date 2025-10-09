@@ -10,14 +10,10 @@
 
 
 &lt {
-  /* flavor = "tap-preferred"; */
-  /* tapping-term-ms = <120>;   // ↓ faster tap recognition */
-  /* quick-tap-ms    = <200>; */
-  /* retro-tap; */
-  /* flavor = "hold-preferred";   /* hold = layer */ */
-  tapping-term-ms = <50>;
-  quick-tap-ms    = <150>;
-  retro-tap;                   /* boolean flag */
+  flavor = "tap-preferred";
+  tapping-term-ms = <50>;   // ↓ faster tap recognition
+  quick-tap-ms    = <200>;
+  retro-tap;
 };
 
 /* ---------- THE REST GOES IN THE ROOT NODE ---------- */

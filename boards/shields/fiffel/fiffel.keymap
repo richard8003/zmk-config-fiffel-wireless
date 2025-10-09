@@ -42,21 +42,21 @@
     /*   key-positions = <POS_R POS_S POS_T>;  // chord Q + P */
     /*   bindings = <&kp LSFT(LA(BSPC))>; */
     /* }; */
-    combo_jump_one_word_back {
-      timeout-ms = <50>;
-      key-positions = <POS_X POS_C>;  // chord Q + P
-      bindings = <&kp LA(LEFT) >;
-    };
-    combo_jump_one_word_forward  {
-      timeout-ms = <50>;
-      key-positions = <POS_COM POS_DOT>;  // chord Q + P
-      bindings = <&kp LA(RIGHT) >;
+    /* combo_jump_one_word_back { */
+    /*   timeout-ms = <50>; */
+    /*   key-positions = <POS_X POS_C>;  // chord Q + P */
+    /*   bindings = <&kp LA(LEFT) >; */
     /* }; */
-    combo_select_all  {
-      timeout-ms = <50>;
-      key-positions = <POS_W POS_F POS_P>;  // chord Q + P
-      bindings = <&kp LGUI(A) >;
-    };
+    /* combo_jump_one_word_forward  { */
+    /*   timeout-ms = <50>; */
+    /*   key-positions = <POS_COM POS_DOT>;  // chord Q + P */
+    /*   bindings = <&kp LA(RIGHT) >; */
+    /* /* }; */ */
+    /* combo_select_all  { */
+    /*   timeout-ms = <50>; */
+    /*   key-positions = <POS_W POS_F POS_P>;  // chord Q + P */
+    /*   bindings = <&kp LGUI(A) >; */
+    /* }; */
 
     /* combo_poweroff { */
     /*   timeout-ms = <50>; */

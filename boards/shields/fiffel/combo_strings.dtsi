@@ -135,7 +135,7 @@ combo_admin {
 
 combo_next_browser_tab {
   timeout-ms = <75>;
-  key-positions = <POS_F POS_T>;
+  key-positions = <3 16>;
   bindings = <&kp A)>;
 };
 

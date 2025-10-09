@@ -133,28 +133,16 @@ combo_admin {
   bindings = <&kp LC(LG(LA(S)))>;
 };
 
+/* ---------------------------------------- */
+
  combo_ctrl_tab {
   timeout-ms = <50>;
   key-positions = <POS_F POS_T>; // adjust to your actual keys
   bindings = <&kp LC(TAB)>;
 };
 
-// please please 
-// academy academy
-// affiliation 
-// federation 
-// page
-// question
-// register
-// registrationan
-// event
-// user
-// access
-// account
-// Thank you for your email.ank you for your email.\n 
-// organiser
-// Smoothcomp
-// email address
-// associated
-// Have a nice day!
-// admin
+ combo_ctrl_shift_tab {
+  timeout-ms = <50>;
+  key-positions = <POS_W POS_F>; // adjust to your actual keys
+  bindings = <&kp LC(LS(TAB))>;
+};

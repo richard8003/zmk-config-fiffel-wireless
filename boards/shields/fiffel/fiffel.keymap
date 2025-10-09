@@ -82,23 +82,17 @@
       bindings = <&kp LS(N2)>;  
     };
 
-    combo_double_hyphen {
-      timeout-ms = <50>;
-      key-positions = <POS_T POS_SLSH>;
-      bindings = <&kp KC_MINS>;  
-    };
-
-    combo_double_low_hyphen {
-      timeout-ms = <50>;
-      key-positions = <POS_T POS_SLSH>;
-      bindings = <&kp LSFT(KC_MINS)>;  
-    };
-
-    combo_question_mark {
-      timeout-ms = <50>;
-      key-positions = <8 9>;
-      bindings = <&kp LS(MINUS)>;  
-    };
+    /* combo_double_hyphen { */
+    /*   timeout-ms = <50>; */
+    /*   key-positions = <POS_T POS_SLSH>; */
+    /*   bindings = <&kp LS(N2)>;   */
+    /* }; */
+    /**/
+    /* combo_question_mark { */
+    /*   timeout-ms = <50>; */
+    /*   key-positions = <8 9>; */
+    /*   bindings = <&kp LS(MINUS)>;   */
+    /* }; */
 
     combo_bang {
       timeout-ms = <50>;

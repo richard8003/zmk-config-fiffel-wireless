@@ -19,19 +19,19 @@
 / {
 
   combos {
-    /* #include "combo_strings.dtsi" */
+    #include "combo_strings.dtsi"
     compatible = "zmk,combos";
 
-    /* combo_ctrl_tab { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <POS_F POS_T>; */
-    /*   bindings = <&kp LC(TAB)>; */
-    /* }; */
-    /* combo_ctrl_shift_tab { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <POS_W POS_F>;  // chord Q + P */
-    /*   bindings = <&kp LC(LS((TAB))>; */
-    /* }; */
+    combo_ctrl_tab {
+      timeout-ms = <50>;
+      key-positions = <POS_F POS_T>;
+      bindings = <&kp LC(TAB)>;
+    };
+    combo_ctrl_shift_tab {
+      timeout-ms = <50>;
+      key-positions = <POS_W POS_F>;  // chord Q + P
+      bindings = <&kp LC(LS((TAB))>;
+    };
     /* combo_delete_line { */
     /*   timeout-ms = <50>; */
     /*   key-positions = <10 11>;  // chord Q + P */

@@ -22,16 +22,16 @@
     #include "combo_strings.dtsi"
     compatible = "zmk,combos";
 
-    combo_ctrl_tab {
-      timeout-ms = <50>;
-      key-positions = <POS_F POS_T>;  // chord Q + P
-      bindings = <&kp LC(TAB)>;
-    };
-    combo_ctrl_shift_tab {
-      timeout-ms = <50>;
-      key-positions = <POS_W POS_F>;  // chord Q + P
-      bindings = <&kp LC(LS((TAB))>;
-    };
+    /* combo_ctrl_tab { */
+    /*   timeout-ms = <50>; */
+    /*   key-positions = <POS_F POS_T>;  // chord Q + P */
+    /*   bindings = <&kp LC(TAB)>; */
+    /* }; */
+    /* combo_ctrl_shift_tab { */
+    /*   timeout-ms = <50>; */
+    /*   key-positions = <POS_W POS_F>;  // chord Q + P */
+    /*   bindings = <&kp LC(LS((TAB))>; */
+    /* }; */
     /* combo_delete_line { */
     /*   timeout-ms = <50>; */
     /*   key-positions = <10 11>;  // chord Q + P */
@@ -57,14 +57,12 @@
     /*   key-positions = <POS_W POS_F POS_P>;  // chord Q + P */
     /*   bindings = <&kp Lgui(A) >; */
     /* }; */
-            /* --------------------- l */
 
-
-    combo_poweroff {
-      timeout-ms = <50>;
-      key-positions = <POS_Q POS_Z>;  // chord Q + P
-      bindings = <&soft_off>;
-    };
+    /* combo_poweroff { */
+    /*   timeout-ms = <50>; */
+    /*   key-positions = <POS_Q POS_Z>;  // chord Q + P */
+    /*   bindings = <&soft_off>; */
+    /* }; */
 
     combo_copy {
       timeout-ms = <50>;
@@ -210,7 +208,7 @@
                 
 /*    ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮        ╭─────────────┬──────────┬──────────┬──────────┬──────────┬──────────╮ */
 /*    │          │          │          │          │          │          │        │             │          │          │          │          │          │ */
-       &soft_off  &kp Q      &kp W      &kp F      &kp P      &kp B               &kp J         &kp L      &kp U      &kp Y      &kp O      &kp BSPC
+       &kp A      &kp Q      &kp W      &kp F      &kp P      &kp B               &kp J         &kp L      &kp U      &kp Y      &kp O      &kp BSPC
 /*    ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤        ├─────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤ */
 /*    │          │          │          │          │          │          │        │             │          │          │          │          │          │ */
        &kp LCTRL  &kp A      &kp R      &kp S      &kp T      &kp G               &kp M         &kp N      &kp E      &kp I      &kp O      &kp SQT

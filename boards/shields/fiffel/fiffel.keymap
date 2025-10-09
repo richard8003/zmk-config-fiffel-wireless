@@ -67,8 +67,8 @@
       key-positions = <POS_W POS_F POS_P>;  // chord Q + P
       bindings = <&kp LGUI(A) >;
     };
-            /* --------------------- l */
 
+        accountisregistertnoairegisters[
 
     combo_poweroff {
       timeout-ms = <50>;

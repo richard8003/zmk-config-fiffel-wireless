@@ -65,10 +65,11 @@
     /* combo_select_all  { */
     /*   timeout-ms = <50>; */
     /*   key-positions = <POS_W POS_F POS_P>;  // chord Q + P */
-    /*   bindings = <&kp LGUI(A) >; */
+    /*   bindings = <&kp Lgui(A) >; */
     /* }; */
-    /**/
-    /**/
+            /* --------------------- l */
+
+
     combo_poweroff {
       timeout-ms = <50>;
       key-positions = <POS_Q POS_Z>;  // chord Q + P

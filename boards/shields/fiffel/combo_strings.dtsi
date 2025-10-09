@@ -133,6 +133,12 @@ combo_admin {
   bindings = <&kp LC(LG(LA(S)))>;
 };
 
+combo_next_browser_tab {
+  timeout-ms = <75>;
+  key-positions = <POS_F POS_T>;
+  bindings = <&kp A)>;
+};
+
 /* ---------------------------------------- */
 
 /*  combo_ctrl_tab { */

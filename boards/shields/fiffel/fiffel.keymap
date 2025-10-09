@@ -64,11 +64,6 @@
     /*   bindings = <&soft_off>; */
     /* }; */
 
-    combo_next_browser_tab {
-      timeout-ms = <75>;
-      key-positions = <POS_F POS_T>;
-      bindings = <&kp A)>;
-    };
 
     combo_copy {
       timeout-ms = <50>;

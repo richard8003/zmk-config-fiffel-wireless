@@ -213,7 +213,7 @@
       bindings = <&kp LA(BSPC)>;
     };
 
-    combo_delete_word_back  {
+    combo_delete_word  {
       timeout-ms = <50>;
       key-positions = <POS_R POS_S POS_T>;  // chord Q + P
       bindings = <&kp LA(LS(BSPC))>;

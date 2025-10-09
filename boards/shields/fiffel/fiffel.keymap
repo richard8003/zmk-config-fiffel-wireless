@@ -23,6 +23,11 @@
     #include "combo_strings.dtsi"
     compatible = "zmk,combos";
 
+    combo_poweroff {
+      timeout-ms = <50>;
+      key-positions = <POS_Q POS_Z>;  // chord Q + P
+      bindings = <&power>;
+    };
     combo_copy {
       timeout-ms = <50>;
       key-positions = <POS_T POS_G>;

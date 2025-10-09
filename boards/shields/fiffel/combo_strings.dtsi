@@ -86,7 +86,7 @@ combo_account {
 
 //Thank you for your email.\n
 combo_tfe {
-  timeout-ms = <50>;
+  timeout-ms = <75>;
   key-positions = <POS_T POS_F POS_E>;
   bindings = <&kp LC(LG(LA(M)))>;
 };
@@ -131,6 +131,12 @@ combo_admin {
   timeout-ms = <50>;
   key-positions = <POS_A POS_M>;
   bindings = <&kp LC(LG(LA(S)))>;
+};
+
+ combo_ctrl_tab {
+  timeout-ms = <50>;
+  key-positions = <POS_F POS_T>; // adjust to your actual keys
+  bindings = <&kp LC(TAB)>;
 };
 
 // please please 

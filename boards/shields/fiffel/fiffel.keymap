@@ -36,19 +36,19 @@
 
     combo_cut {
       timeout-ms = <50>;
-      key-positions = <4 5>;
+      key-positions = <POS_P POS_B>;
       bindings = <&kp LG(X)>;
     };
 
     combo_paste {
       timeout-ms = <50>;
-      key-positions = <28 29>;
+      key-positions = <POS_D POS_V>;
       bindings = <&kp LG(V)>;
     };
 
     combo_esc {
       timeout-ms = <50>;
-      key-positions = <20 21>;
+      key-positions = <POS_E POS_I>;
       bindings = <&kp ESC>;
     };
             
@@ -80,6 +80,18 @@
       timeout-ms = <50>;
       key-positions = <7 18>;
       bindings = <&kp LS(N2)>;  
+    };
+
+    combo_double_hyphen {
+      timeout-ms = <50>;
+      key-positions = <POS_T POS_SLSH>;
+      bindings = <&kp KC_MINS>;  
+    };
+
+    combo_double_low_hyphen {
+      timeout-ms = <50>;
+      key-positions = <POS_T POS_SLSH>;
+      bindings = <&kp LSFT(KC_MINS)>;  
     };
 
     combo_question_mark {

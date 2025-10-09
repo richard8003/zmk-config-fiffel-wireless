@@ -16,32 +16,22 @@
   /* retro-tap; */
 };
 
-/* ---------- THE REST GOES IN THE ROOT NODE ---------- */
-/ {
-/* ctrl_tab [] = {KC_F, KC_T, COMBO_END}; // ctrl+tab-> */ */
-/* ctrl_shift_tab [] = {KC_W, KC_F, COMBO_END}; // ctrl+tab<- */ */
-/* delete_line [] = {KC_SCLN, KC_LBRC, COMBO_END}; // delete a whole line */ */
-/* delete_word_back [] = {KC_R, KC_S, KC_T, COMBO_END}; // delete a whole word */ */
-/* jump_one_word_back [] = {KC_X, KC_C, COMBO_END}; // jump one word back */ */
-/* jump_one_word_forward [] = {KC_COMM, KC_DOT, COMBO_END}; // jump one word forward */ */
-/* select_all [] = {KC_W, KC_F, KC_P, COMBO_END}; // select all (cmd+a) */ */
 
 
   combos {
     #include "combo_strings.dtsi"
     compatible = "zmk,combos";
 
-            /* --------------------- l */
-    /* combo_ctrl_tab { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <POS_F POS_T>;  // chord Q + P */
-    /*   bindings = <&kp LC(TAB)>; */
-    /* }; */
-    /* combo_ctrl_shift_tab { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <POS_W POS_F>;  // chord Q + P */
-    /*   bindings = <&kp LSG(TAB)>; */
-    /* }; */
+    combo_ctrl_tab {
+      timeout-ms = <50>;
+      key-positions = <POS_F POS_T>;  // chord Q + P
+      bindings = <&kp LC(TAB)>;
+    };
+    combo_ctrl_shift_tab {
+      timeout-ms = <50>;
+      key-positions = <POS_W POS_F>;  // chord Q + P
+      bindings = <&kp LC(LS((TAB))>;
+    };
     /* combo_delete_line { */
     /*   timeout-ms = <50>; */
     /*   key-positions = <10 11>;  // chord Q + P */

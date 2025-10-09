@@ -21,7 +21,7 @@
 
 
   combos {
-    /* #include "combo_strings.dtsi" */
+    #include "combo_strings.dtsi"
     compatible = "zmk,combos";
 
     combo_copy {

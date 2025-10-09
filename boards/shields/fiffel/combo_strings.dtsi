@@ -1,5 +1,5 @@
 #include "keypos.dtsi"
-#include <dt-bindings/zmk/modifiers.h>
+/* #include <dt-bindings/zmk/modifiers.h> */
 
 // please
 combo_please {
@@ -123,7 +123,7 @@ combo_associated {
 //Have a nice day!
 combo_have_a_nice_day {
   timeout-ms = <50>;
-  key-positions = <POS_K POS_H POS_COMM>;
+  key-positions = <POS_K POS_H POS_COM>;
   bindings = <&kp LC(LG(LA(S)))>;
 };
 

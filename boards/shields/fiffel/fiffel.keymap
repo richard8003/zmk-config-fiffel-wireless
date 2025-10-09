@@ -11,8 +11,8 @@
 
 &lt {
   flavor = "tap-preferred";
-  tapping-term-ms = <125>;   // ↓ faster tap recognition
-  quick-tap-ms    = <200>;
+  tapping-term-ms = <150>;   // ↓ faster tap recognition
+  quick-tap-ms    = <50>;
   retro-tap;
 };
 
@@ -158,7 +158,7 @@
                 
 /*    ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮        ╭─────────────┬──────────┬──────────┬──────────┬──────────┬──────────╮ */
 /*    │          │          │          │          │          │          │        │             │          │          │          │          │          │ */
-       &kp TAB    &kp Q      &kp W      &kp F      &kp P      &kp B               &kp J         &kp L      &kp U      &kp Y      &kp O      &kp BSPC
+       &soft_off  &kp Q      &kp W      &kp F      &kp P      &kp B               &kp J         &kp L      &kp U      &kp Y      &kp O      &kp BSPC
 /*    ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤        ├─────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤ */
 /*    │          │          │          │          │          │          │        │             │          │          │          │          │          │ */
        &kp LCTRL  &kp A      &kp R      &kp S      &kp T      &kp G               &kp M         &kp N      &kp E      &kp I      &kp O      &kp SQT

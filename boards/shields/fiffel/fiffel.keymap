@@ -22,41 +22,41 @@
     #include "combo_strings.dtsi"
     compatible = "zmk,combos";
 
-    /* combo_ctrl_tab { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <POS_F POS_T>;  // chord Q + P */
-    /*   bindings = <&kp LC(TAB)>; */
-    /* }; */
-    /* combo_ctrl_shift_tab { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <POS_W POS_F>;  // chord Q + P */
-    /*   bindings = <&kp LC(LS((TAB))>; */
-    /* }; */
-    /* combo_delete_line { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <10 11>;  // chord Q + P */
-    /*   bindings = <&kp LA(BSPC)>; */
-    /* }; */
-    /* combo_delete_word_back  { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <POS_R POS_S POS_T>;  // chord Q + P */
-    /*   bindings = <&kp LSFT(LA(BSPC))>; */
-    /* }; */
-    /* combo_jump_one_word_back { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <POS_X POS_C>;  // chord Q + P */
-    /*   bindings = <&kp LA(LEFT) >; */
-    /* }; */
-    /* combo_jump_one_word_forward  { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <POS_COM POS_DOT>;  // chord Q + P */
-    /*   bindings = <&kp LA(RIGHT) >; */
-    /* }; */
-    /* combo_select_all  { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <POS_W POS_F POS_P>;  // chord Q + P */
-    /*   bindings = <&kp Lgui(A) >; */
-    /* }; */
+    combo_ctrl_tab {
+      timeout-ms = <50>;
+      key-positions = <POS_F POS_T>;  // chord Q + P
+      bindings = <&kp LC(TAB)>;
+    };
+    combo_ctrl_shift_tab {
+      timeout-ms = <50>;
+      key-positions = <POS_W POS_F>;  // chord Q + P
+      bindings = <&kp LC(LS((TAB))>;
+    };
+    combo_delete_line {
+      timeout-ms = <50>;
+      key-positions = <10 11>;  // chord Q + P
+      bindings = <&kp LA(BSPC)>;
+    };
+    combo_delete_word_back  {
+      timeout-ms = <50>;
+      key-positions = <POS_R POS_S POS_T>;  // chord Q + P
+      bindings = <&kp LSFT(LA(BSPC))>;
+    };
+    combo_jump_one_word_back {
+      timeout-ms = <50>;
+      key-positions = <POS_X POS_C>;  // chord Q + P
+      bindings = <&kp LA(LEFT) >;
+    };
+    combo_jump_one_word_forward  {
+      timeout-ms = <50>;
+      key-positions = <POS_COM POS_DOT>;  // chord Q + P
+      bindings = <&kp LA(RIGHT) >;
+    };
+    combo_select_all  {
+      timeout-ms = <50>;
+      key-positions = <POS_W POS_F POS_P>;  // chord Q + P
+      bindings = <&kp Lgui(A) >;
+    };
 
     /* combo_poweroff { */
     /*   timeout-ms = <50>; */

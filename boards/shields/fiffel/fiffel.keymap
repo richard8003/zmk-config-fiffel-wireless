@@ -269,13 +269,13 @@
 
 /*    ╭──────────┬──────────┬──────────────┬──────────────┬───────────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮ */
 /*    │          │          │              │              │               │          │   │          │          │          │          │          │          │ */
-       &kp TAB    &kp Q      &kp LC(LA(N7)) &kp LC(LA(N8)) &kp LC(LA(N9))  &kp B          &kp J      &kp LC(LA(LS(N4)))     &kp N8     &kp N9     &kp O      &kp BSPC
+       &kp TAB    &kp Q      &kp LC(LA(N7)) &kp LC(LA(N8)) &kp LC(LA(N9))  &kp B          &kp J      &kp LC(LA(LS(N4)))     &kp LC(LA(LS(N4)))     &kp LC(LA(LS(N4)))     &kp O      &kp BSPC
 /*    ├──────────┼──────────┼──────────────┼──────────────┼───────────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤ */
 /*    │          │          │              │              │               │          │   │          │          │          │          │          │          │ */
-       &kp LCTRL  &kp X      &kp LC(LA(N4)) &kp LC(LA(N5)) &kp LC(LA(N6))  &kp G          &kp M      &kp X      &kp Y      &kp Z      &kp P      &kp SQT
+       &kp LCTRL  &kp X      &kp LC(LA(N4)) &kp LC(LA(N5)) &kp LC(LA(N6))  &kp G          &kp M      &kp LC(LA(LS(N4)))      &kp LC(LA(LS(N4)))      &kp LC(LA(LS(N4)))      &kp P      &kp SQT
 /*    ├──────────┼──────────┼──────────────┼──────────────┼───────────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤ */
 /*    │          │          │              │              │               │          │   │          │          │          │          │          │          │ */
-       &kp LSHFT  &kp Z      &kp LC(LA(N1)) &kp LC(LA(N2)) &kp LC(LA(N3))  &kp V          &kp K      &kp N1     &kp N2     &kp N3     &kp FSLH   &kp ESC
+       &kp LSHFT  &kp Z      &kp LC(LA(N1)) &kp LC(LA(N2)) &kp LC(LA(N3))  &kp V          &kp K      &kp LC(LA(LS(N4)))     &kp LC(LA(LS(N4)))     &kp LC(LA(LS(N4)))     &kp FSLH   &kp ESC
 /*    ╰──────────┴──────────┴──────────────┼──────────────┼───────────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯ */
 /*                                         │              │               │          │   │          │          │          │                                  */
                                             &kp LGUI       &kp BSPC        &kp SPACE      &kp RET    &kp SPACE  &kp A 

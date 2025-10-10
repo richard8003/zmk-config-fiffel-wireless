@@ -10,9 +10,10 @@
 
 
 &lt {
-  flavor = "tap-preferred";
+  /* flavor = "tap-preferred"; */
+  flavor = "hold-preferred";
   tapping-term-ms = <175>;   // ↓ faster tap recognition
-  quick-tap-ms    = <100>;
+  quick-tap-ms    = <50>;
   retro-tap;
 };
 
@@ -269,7 +270,7 @@
        &kp TAB    &kp Q      &kp W      &kp F      &kp P      &kp B          &kp J      &kp N7     &kp N8     &kp N9     &kp O      &kp BSPC
 /*    ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤ */
 /*    │          │          │          │          │          │          │   │          │          │          │          │          │          │ */
-       &kp LCTRL  &kp A      &kp R      &kp S      &kp T      &kp G          &kp M      &kp N4     &kp N5     &kp N6     &kp O      &kp SQT
+       &kp LCTRL  &kp X      &kp Y      &kp Z      &kp P      &kp G          &kp M      &kp X      &kp Y      &kp Z      &kp P      &kp SQT
 /*    ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤ */
 /*    │          │          │          │          │          │          │   │          │          │          │          │          │          │ */
        &kp LSHFT  &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K      &kp N1     &kp N2     &kp N3     &kp FSLH   &kp ESC

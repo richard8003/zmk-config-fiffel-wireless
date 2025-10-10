@@ -207,14 +207,14 @@
     combo_l3_left  {
       timeout-ms = <50>;
       key-positions = <POS_A POS_R POS_S POS_T>;  
-      bindings = <&mo 2>;
+      bindings = <&sl 2>;
     };
         
 
     combo_l3_right  {
       timeout-ms = <50>;
       key-positions = <POS_N POS_E POS_I POS_O>;  
-      bindings = <&mo 2>;
+      bindings = <&sl 2>;
     };
   };
 
@@ -280,6 +280,7 @@
 /*                                     │          │          │          │   │          │          │          │                                  */
                                         &kp LGUI   &kp BSPC   &kp SPACE      &kp RET    &kp SPACE  &kp A 
 /*                                     ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯ */
+    
 
       >;
     };

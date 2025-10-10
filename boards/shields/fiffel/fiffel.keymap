@@ -14,7 +14,7 @@
   /* flavor = "hold-preferred"; */
   tapping-term-ms = <175>;   // ↓ faster tap recognition
   quick-tap-ms    = <50>;
-  retro-tap;
+  /* retro-tap; */
 };
 
 / {

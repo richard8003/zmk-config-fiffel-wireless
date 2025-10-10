@@ -22,49 +22,6 @@
     #include "combo_strings.dtsi"
     compatible = "zmk,combos";
 
-    /* combo_ctrl_tab { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <POS_Q POS_T>; */
-    /*   bindings = <&kp A)>; */
-    /* }; */
-    /* combo_ctrl_shift_tab { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <POS_W POS_F>;  // chord Q + P */
-    /*   bindings = <&kp LC(LS((TAB))>; */
-    /* }; */
-    /* combo_delete_line { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <10 11>;  // chord Q + P */
-    /*   bindings = <&kp LA(BSPC)>; */
-    /* }; */
-    /* combo_delete_word_back  { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <POS_R POS_S POS_T>;  // chord Q + P */
-    /*   bindings = <&kp LSFT(LA(BSPC))>; */
-    /* }; */
-    /* combo_jump_one_word_back { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <POS_X POS_C>;  // chord Q + P */
-    /*   bindings = <&kp LA(LEFT) >; */
-    /* }; */
-    /* combo_jump_one_word_forward  { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <POS_COM POS_DOT>;  // chord Q + P */
-    /*   bindings = <&kp LA(RIGHT) >; */
-    /* /* }; */ 
-    /* combo_select_all  { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <POS_W POS_F POS_P>;  // chord Q + P */
-    /*   bindings = <&kp LGUI(A) >; */
-    /* }; */
-
-    /* combo_poweroff { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <POS_Q POS_Z>;  // chord Q + P */
-    /*   bindings = <&soft_off>; */
-    /* }; */
-
-
     combo_copy {
       timeout-ms = <50>;
       key-positions = <POS_T POS_G>;
@@ -98,13 +55,13 @@
     combo_left_shift {
       timeout-ms = <50>;
       key-positions = <15 16>;
-      bindings = <&kp RSFT>;   // höger shift
+      bindings = <&kp RSFT>;   
     };
 
     combo_right_shift {
       timeout-ms = <50>;
       key-positions = <19 20>;
-      bindings = <&kp RSFT>;   // höger shift
+      bindings = <&kp RSFT>;  
     };
 
     combo_single_quote {
@@ -147,103 +104,105 @@
     combo_opening_bracket {
         timeout-ms = <50>;
         key-positions = <16 19>; 
-        bindings = <&kp LA(N8)>; // LALT(KC_8)
+        bindings = <&kp LA(N8)>; 
     };
 
     combo_closing_bracket {
         timeout-ms = <50>;
         key-positions = <16 20>;   
-        bindings = <&kp LA(N9)>; // LALT(KC_9)
+        bindings = <&kp LA(N9)>; 
     };
 
     combo_opening_parent {
         timeout-ms = <50>;
         key-positions = <16 7>;   
-        bindings = <&kp LS(N8)>; // LSFT(KC_8)
+        bindings = <&kp LS(N8)>;
     };
 
     combo_closing_parent {
         timeout-ms = <50>;
         key-positions = <16 8>;   
-        bindings = <&kp LS(N9)>; // LSFT(KC_9)
+        bindings = <&kp LS(N9)>; 
     };
 
     combo_opening_curly {
         timeout-ms = <50>;
         key-positions = <16 31>;   
-        bindings = <&kp LA(LS(N8))>; // RSA(KC_8) → Right Alt (AltGr) + 8
+        bindings = <&kp LA(LS(N8))>; 
     };
 
     combo_closing_curly {
         timeout-ms = <50>;
         key-positions = <16 32>;   
-        bindings = <&kp LA(LS(N9))>; // RSA(KC_9) → Right Alt (AltGr) + 9
+        bindings = <&kp LA(LS(N9))>; 
     };
 
     combo_ret_i_ao {
       timeout-ms = <50>;
       key-positions = <40 8>;
-      bindings = <&kp LBKT>;   // 'ö' på svensk layout
+      bindings = <&kp LBKT>;   
     };
 
     combo_ret_i_ae {
       timeout-ms = <50>;
       key-positions = <40 20>;
-      bindings = <&kp SQT>;   // 'ö' på svensk layout
+      bindings = <&kp SQT>;   
     };
 
     combo_ret_i_oe {
       timeout-ms = <50>;
       key-positions = <40 21>;
-      bindings = <&kp SCLN>;   // 'ö' på svensk layout
+      bindings = <&kp SCLN>;   
     };
 
     combo_tabnext {
       timeout-ms = <50>;
       key-positions = <3 16>;
-      bindings = <&kp LC(TAB)>;   // 'ö' på svensk layout
+      bindings = <&kp LC(TAB)>;   
     };
 
     combo_tabprev {
       timeout-ms = <50>;
       key-positions = <3 2>;
-      bindings = <&kp LC(LS(TAB))>;   // 'ö' på svensk layout
+      bindings = <&kp LC(LS(TAB))>;   
     };
 
     combo_delete_line {
       timeout-ms = <50>;
-      key-positions = <10 11>;  // chord Q + P
+      key-positions = <10 11>;  
       bindings = <&kp LG(BSPC)>;
     };
 
     combo_delete_word  {
       timeout-ms = <50>;
-      key-positions = <POS_R POS_S POS_T>;  // chord Q + P
+      key-positions = <POS_R POS_S POS_T>;  
       bindings = <&kp LA(BSPC)>;
     };
 
     combo_select_all  {
       timeout-ms = <50>;
-      key-positions = <2 3 4>;  // chord Q + P
+      key-positions = <2 3 4>;  
       bindings = <&kp LG(A)>;
     };
 
     combo_word_n  {
       timeout-ms = <50>;
-      key-positions = <POS_X POS_C>;  // chord Q + P
+      key-positions = <POS_X POS_C>;  
       bindings = <&kp LA(LEFT)>;
     };
 
     combo_word_p  {
       timeout-ms = <50>;
-      key-positions = <POS_DOT POS_COM>;  // chord Q + P
+      key-positions = <POS_DOT POS_COM>;  
+      bindings = <&kp LA(RIGHT)>;
+    };
+
+    combo_layer_nav  {
+      timeout-ms = <50>;
+      key-positions = <POS_DOT POS_COM>;  
       bindings = <&kp LA(RIGHT)>;
     };
   };
-
-/* const uint16_t PROGMEM jump_one_word_back[] = {KC_X, KC_C, COMBO_END}; // jump one word back */
-/* const uint16_t PROGMEM jump_one_word_forward[] = {KC_COMM, KC_DOT, COMBO_END}; // jump one word forward */
-/* const uint16_t PROGMEM select_all[] = {KC_W, KC_F, KC_P, COMBO_END}; // select all (cmd+a) */
 
 
   keymap {

@@ -224,7 +224,7 @@
 
     combo_select_all  {
       timeout-ms = <50>;
-      key-positions = <26 17>;  // chord Q + P
+      key-positions = <2 3 4>;  // chord Q + P
       bindings = <&kp LG(A)>;
     };
   };

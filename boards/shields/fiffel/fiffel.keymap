@@ -197,16 +197,19 @@
       key-positions = <40 21>;
       bindings = <&kp SCLN>;   // 'ö' på svensk layout
     };
+
     combo_tabnext {
       timeout-ms = <50>;
       key-positions = <3 16>;
       bindings = <&kp LC(TAB)>;   // 'ö' på svensk layout
     };
+
     combo_tabprev {
       timeout-ms = <50>;
       key-positions = <3 2>;
       bindings = <&kp LC(LS(TAB))>;   // 'ö' på svensk layout
     };
+
     combo_delete_line {
       timeout-ms = <50>;
       key-positions = <10 11>;  // chord Q + P
@@ -217,9 +220,18 @@
       timeout-ms = <50>;
       key-positions = <POS_R POS_S POS_T>;  // chord Q + P
       bindings = <&kp LA(BSPC)>;
-      /* bindings = <&kp LA(LS(BSPC))>; */
+    };
+
+    combo_select_all  {
+      timeout-ms = <50>;
+      key-positions = <26 17>;  // chord Q + P
+      bindings = <&kp LG(A)>;
     };
   };
+
+/* const uint16_t PROGMEM jump_one_word_back[] = {KC_X, KC_C, COMBO_END}; // jump one word back */
+/* const uint16_t PROGMEM jump_one_word_forward[] = {KC_COMM, KC_DOT, COMBO_END}; // jump one word forward */
+/* const uint16_t PROGMEM select_all[] = {KC_W, KC_F, KC_P, COMBO_END}; // select all (cmd+a) */
 
 
   keymap {

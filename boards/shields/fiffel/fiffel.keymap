@@ -9,14 +9,14 @@
 // exempel backspace som även är layer 1
 
 
-&lt {
-  flavor = "tap-preferred";
-  /* flavor = "hold-preferred"; */
-  /* tapping-term-ms = <175>;   // ↓ faster tap recognition */
-  tapping-term-ms = <200>;   // ↓ faster tap recognition
-  quick-tap-ms    = <130>;
-  /* retro-tap; */
-};
+/* &lt { */
+/*   flavor = "tap-preferred"; */
+/*   /* flavor = "hold-preferred"; */ */
+/*   /* tapping-term-ms = <175>;   // ↓ faster tap recognition */ */
+/*   tapping-term-ms = <200>;   // ↓ faster tap recognition */
+/*   quick-tap-ms    = <130>; */
+/*   /* retro-tap; */ */
+/* }; */
 
 / {
     /*     behaviors { */

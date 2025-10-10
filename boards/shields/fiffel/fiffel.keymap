@@ -227,6 +227,18 @@
       key-positions = <2 3 4>;  // chord Q + P
       bindings = <&kp LG(A)>;
     };
+
+    combo_word_n  {
+      timeout-ms = <50>;
+      key-positions = <POS_X POS_C>;  // chord Q + P
+      bindings = <&kp LA(LEFT)>;
+    };
+
+    combo_word_p  {
+      timeout-ms = <50>;
+      key-positions = <POS_DOT POS_COM>;  // chord Q + P
+      bindings = <&kp LA(RIGHT)>;
+    };
   };
 
 /* const uint16_t PROGMEM jump_one_word_back[] = {KC_X, KC_C, COMBO_END}; // jump one word back */

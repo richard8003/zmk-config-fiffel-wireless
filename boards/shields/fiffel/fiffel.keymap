@@ -10,9 +10,12 @@
 
 
 &lt {
-   quick-tap-ms    = <200>;
+   quick-tap-ms = <200>;
 }; 
 
+&soft_off {
+   hold-time-ms = <5000>; // Only turn off it the key is held for 5 seconds or longer.
+};
 / {
 
   combos {
@@ -226,7 +229,7 @@
        &kp LS(LG(X)) &kp Q      &kp W      &kp F      &kp P      &kp B               &kp J         &kp L      &kp U      &kp Y      &kp O      &kp BSPC
 /*    ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤        ├─────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤ */
 /*    │          │          │          │          │          │          │        │             │          │          │          │          │          │ */
-       &kp LCTRL  &kp A      &kp R      &kp S      &kp T      &kp G               &kp M         &kp N      &kp E      &kp I      &kp O      &kp SQT
+       &kp CAPS    &kp A      &kp R      &kp S      &kp T      &kp G               &kp M         &kp N      &kp E      &kp I      &kp O     &soft_off 
 /*    ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤        ├─────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤ */
 /*    │          │          │          │          │          │          │        │             │          │          │          │          │          │ */
        &kp LS(LG(N4))  &kp Z      &kp X      &kp C      &kp D      &kp V               &kp K         &kp H      &kp COMMA  &kp DOT    &kp LS(N7) &kp ESC

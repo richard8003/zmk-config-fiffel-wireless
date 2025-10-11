@@ -229,7 +229,7 @@
        &kp LCTRL  &kp A      &kp R      &kp S      &kp T      &kp G               &kp M         &kp N      &kp E      &kp I      &kp O      &kp SQT
 /*    ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤        ├─────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤ */
 /*    │          │          │          │          │          │          │        │             │          │          │          │          │          │ */
-       &kp LS(LG(N4)  &kp Z      &kp X      &kp C      &kp D      &kp V               &kp K         &kp H      &kp COMMA  &kp DOT    &kp LS(N7) &kp ESC
+       &kp LS(LG(N4))  &kp Z      &kp X      &kp C      &kp D      &kp V               &kp K         &kp H      &kp COMMA  &kp DOT    &kp LS(N7) &kp ESC
 /*    ╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤        ├─────────────┼──────────┼──────────┼──────────┴──────────┴──────────╯ */
 /*                                     │          │          │          │        │             │          │          │                                  */
                                         &mt LALT ESC   &lt 1 BSPC &mt LGUI TAB    &mt RCTRL RET &lt 1 SPACE &kp RALT

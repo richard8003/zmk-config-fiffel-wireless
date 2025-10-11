@@ -14,7 +14,7 @@
 }; 
 
 &soft_off {
-   hold-time-ms = <5000>; // Only turn off it the key is held for 5 seconds or longer.
+   hold-time-ms = <2000>; // Only turn off it the key is held for 5 seconds or longer.
 };
 / {
 
@@ -214,6 +214,12 @@
       timeout-ms = <50>;
       key-positions = <POS_N POS_E POS_I POS_O>;  
       bindings = <&sl 2>;
+    };
+
+    combo_power  {
+      timeout-ms = <50>;
+      key-positions = <11 23>;  
+      bindings = <&soft_off>;
     };
   };
 

@@ -1,0 +1,342 @@
+#include "keypos.dtsi"
+
+combos {
+  
+  // please
+    combo_please {
+      timeout-ms = <50>;
+      key-positions = <POS_P POS_L>;
+      bindings = <&kp LC(LG(LA(A)))>;
+    };
+    
+    // academy
+    combo_academy {
+      timeout-ms = <50>;
+      key-positions = <POS_A POS_Y>;
+      bindings = <&kp LC(LG(LA(B)))>;
+    };
+    
+    // affiliation
+    combo_affiliation {
+      timeout-ms = <50>;
+      key-positions = <POS_A POS_F POS_N>;
+      bindings = <&kp LC(LG(LA(C)))>;
+    };
+    
+    // federation
+    combo_federation {
+      timeout-ms = <50>;
+      key-positions = <POS_F POS_E POS_N>;
+      bindings = <&kp LC(LG(LA(D)))>;
+    };
+    
+    // page
+    combo_page {
+      timeout-ms = <50>;
+      key-positions = <POS_P POS_E>;
+      bindings = <&kp LC(LG(LA(E)))>;
+    };
+    
+    // question
+    combo_question {
+      timeout-ms = <50>;
+      key-positions = <POS_Q POS_N>;
+      bindings = <&kp LC(LG(LA(F)))>;
+    };
+    
+    // register
+    combo_register {
+      timeout-ms = <50>;
+      key-positions = <POS_R POS_E>;
+      bindings = <&kp LC(LG(LA(G)))>;
+    };
+    
+    // registration
+    combo_registration {
+      timeout-ms = <50>;
+      key-positions = <POS_R POS_N>;
+      bindings = <&kp LC(LG(LA(H)))>;
+    };
+    
+    //event
+    combo_event {
+      timeout-ms = <50>;
+      key-positions = <POS_E POS_V>;
+      bindings = <&kp LC(LG(LA(I)))>;
+    };
+    
+    //user
+    combo_user {
+      timeout-ms = <50>;
+      key-positions = <POS_U POS_S POS_R>;
+      bindings = <&kp LC(LG(LA(J)))>;
+    };
+    
+    //access
+    combo_access {
+      timeout-ms = <50>;
+      key-positions = <POS_X POS_S>;
+      bindings = <&kp LC(LG(LA(K)))>;
+    };
+    
+    //account
+    combo_account {
+      timeout-ms = <50>;
+      key-positions = <POS_A POS_O>;
+      bindings = <&kp LC(LG(LA(L)))>;
+    };
+    
+    //Thank you for your email.\n
+    combo_tfe {
+      timeout-ms = <75>;
+      key-positions = <POS_T POS_F POS_E>;
+      bindings = <&kp LC(LG(LA(M)))>;
+    };
+    
+    //organiser
+    combo_organiser {
+      timeout-ms = <50>;
+      key-positions = <POS_G POS_O>;
+      bindings = <&kp LC(LG(LA(N)))>;
+    };
+    
+    //Smoothcomp
+    combo_smoothcomp {
+      timeout-ms = <50>;
+      key-positions = <POS_S POS_M POS_O>;
+      bindings = <&kp LC(LG(LA(O)))>;
+    };
+    
+    //email address
+    combo_email_address {
+      timeout-ms = <50>;
+      key-positions = <POS_E POS_D>;
+      bindings = <&kp LC(LG(LA(P)))>;
+    };
+    
+    
+    
+    //associated
+    combo_associated {
+      timeout-ms = <50>;
+      key-positions = <POS_A POS_S POS_O>;
+      bindings = <&kp LC(LG(LA(Q)))>;
+    };
+    
+    //Have a nice day!
+    combo_have_a_nice_day {
+      timeout-ms = <50>;
+      key-positions = <POS_K POS_H POS_COM>;
+      bindings = <&kp LC(LG(LA(R)))>;
+    };
+    
+    //admin
+    combo_admin {
+      timeout-ms = <50>;
+      key-positions = <POS_A POS_M>;
+      bindings = <&kp LC(LG(LA(S)))>;
+    };
+
+    #include "combo_strings.dtsi"
+    compatible = "zmk,combos";
+
+    combo_copy {
+      timeout-ms = <50>;
+      key-positions = <POS_T POS_G>;
+      bindings = <&kp LG(C)>;
+    };
+
+    combo_cut {
+      timeout-ms = <50>;
+      key-positions = <POS_P POS_B>;
+      bindings = <&kp LG(X)>;
+    };
+
+    combo_paste {
+      timeout-ms = <50>;
+      key-positions = <POS_D POS_V>;
+      bindings = <&kp LG(V)>;
+    };
+
+    combo_esc {
+      timeout-ms = <50>;
+      key-positions = <POS_E POS_I>;
+      bindings = <&kp ESC>;
+    };
+            
+    combo_alt {
+      timeout-ms = <50>;
+      key-positions = <14 15>;
+      bindings = <&kp LALT>;
+    };
+            
+    combo_left_shift {
+      timeout-ms = <50>;
+      key-positions = <15 16>;
+      bindings = <&kp RSFT>;   
+    };
+
+    combo_right_shift {
+      timeout-ms = <50>;
+      key-positions = <19 20>;
+      bindings = <&kp RSFT>;  
+    };
+
+    combo_single_quote {
+      timeout-ms = <50>;
+      key-positions = <8 19>;
+      bindings = <&kp BSLH>;  
+    };
+
+    combo_double_quote {
+      timeout-ms = <50>;
+      key-positions = <7 18>;
+      bindings = <&kp LS(N2)>;  
+    };
+
+    combo_double_hyphen {
+      timeout-ms = <50>;
+      key-positions = <POS_T POS_SLSH>;
+      bindings = <&kp FSLH>;  
+    };
+
+
+    combo_double_lower_hyphen {
+      timeout-ms = <50>;
+      key-positions = <POS_N POS_D>;
+      bindings = <&kp LS(FSLH)>;  
+    };
+
+    combo_question_mark {
+      timeout-ms = <50>;
+      key-positions = <8 9>;
+      bindings = <&kp LS(MINUS)>;  
+    };
+
+    combo_bang {
+      timeout-ms = <50>;
+      key-positions = <1 2>;
+      bindings = <&kp LS(N1)>;  
+    };
+
+    combo_opening_bracket {
+        timeout-ms = <50>;
+        key-positions = <16 19>; 
+        bindings = <&kp LA(N8)>; 
+    };
+
+    combo_closing_bracket {
+        timeout-ms = <50>;
+        key-positions = <16 20>;   
+        bindings = <&kp LA(N9)>; 
+    };
+
+    combo_opening_parent {
+        timeout-ms = <50>;
+        key-positions = <16 7>;   
+        bindings = <&kp LS(N8)>;
+    };
+
+    combo_closing_parent {
+        timeout-ms = <50>;
+        key-positions = <16 8>;   
+        bindings = <&kp LS(N9)>; 
+    };
+
+    combo_opening_curly {
+        timeout-ms = <50>;
+        key-positions = <16 31>;   
+        bindings = <&kp LA(LS(N8))>; 
+    };
+
+    combo_closing_curly {
+        timeout-ms = <50>;
+        key-positions = <16 32>;   
+        bindings = <&kp LA(LS(N9))>; 
+    };
+
+    combo_ret_i_ao {
+      timeout-ms = <50>;
+      key-positions = <40 8>;
+      bindings = <&kp LBKT>;   
+    };
+
+    combo_ret_i_ae {
+      timeout-ms = <50>;
+      key-positions = <40 20>;
+      bindings = <&kp SQT>;   
+    };
+
+    combo_ret_i_oe {
+      timeout-ms = <50>;
+      key-positions = <40 21>;
+      bindings = <&kp SCLN>;   
+    };
+
+    combo_tabnext {
+      timeout-ms = <50>;
+      key-positions = <3 16>;
+      bindings = <&kp LC(TAB)>;   
+    };
+
+    combo_tabprev {
+      timeout-ms = <50>;
+      key-positions = <3 2>;
+      bindings = <&kp LC(LS(TAB))>;   
+    };
+
+    combo_delete_line {
+      timeout-ms = <50>;
+      key-positions = <10 11>;  
+      bindings = <&kp LG(BSPC)>;
+    };
+
+    combo_delete_word  {
+      timeout-ms = <50>;
+      key-positions = <POS_R POS_S POS_T>;  
+      bindings = <&kp LA(BSPC)>;
+    };
+
+    combo_select_all  {
+      timeout-ms = <50>;
+      key-positions = <2 3 4>;  
+      bindings = <&kp LG(A)>;
+    };
+
+    combo_word_n  {
+      timeout-ms = <50>;
+      key-positions = <POS_X POS_C>;  
+      bindings = <&kp LA(LEFT)>;
+    };
+
+    combo_word_p  {
+      timeout-ms = <50>;
+      key-positions = <POS_DOT POS_COM>;  
+      bindings = <&kp LA(RIGHT)>;
+    };
+
+    combo_layer_nav  {
+      timeout-ms = <50>;
+      key-positions = <POS_DOT POS_COM>;  
+      bindings = <&kp LA(RIGHT)>;
+    };
+
+    combo_l3_left  {
+      timeout-ms = <50>;
+      key-positions = <POS_A POS_R POS_S POS_T>;  
+      bindings = <&sl 2>;
+    };
+        
+
+    combo_l3_right  {
+      timeout-ms = <50>;
+      key-positions = <POS_N POS_E POS_I POS_O>;  
+      bindings = <&sl 2>;
+    };
+
+    combo_power  {
+      timeout-ms = <50>;
+      key-positions = <11 23>;  
+      bindings = <&soft_off>;
+    };
+  };

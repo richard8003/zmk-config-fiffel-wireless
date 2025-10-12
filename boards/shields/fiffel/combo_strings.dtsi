@@ -113,7 +113,6 @@ combo_email_address {
 };
 
 
-
 //associated
 combo_associated {
   timeout-ms = <50>;

@@ -4,11 +4,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include "keypos.dtsi"
 
-/* ---------- BEHAVIOR OVERRIDE (TOP-LEVEL, not inside /{ }) ---------- */
-// Den här gör att jag kan hålla inne en knapp för upprepning även om jag har en modifier på samma knapp
-// exempel backspace som även är layer 1
-
-
 &lt {
    quick-tap-ms = <200>;
 }; 
@@ -16,66 +11,55 @@
 &soft_off {
    hold-time-ms = <2000>; // Only turn off it the key is held for 5 seconds or longer.
 };
+
 / {
 
   combos {
     #include "combo_strings.dtsi"
     compatible = "zmk,combos";
-
   };
-
 
   keymap {
     compatible = "zmk,keymap";
     default_layer {
       display-name = "Default Layer";
       bindings = <
-                
 /*    ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮        ╭─────────────┬──────────┬──────────┬──────────┬──────────┬──────────╮ */
 /*    │          │          │          │          │          │          │        │             │          │          │          │          │          │ */
-       &kp LS(LG(X)) &kp Q      &kp W      &kp F      &kp P      &kp B               &kp J         &kp L      &kp U      &kp Y      &kp O      &kp BSPC
+       &kp LS(LG(X)) &kp Q      &kp W      &kp F      &kp P   &kp B               &kp J         &kp L      &kp U      &kp Y      &kp O      &kp BSPC
 /*    ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤        ├─────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤ */
 /*    │          │          │          │          │          │          │        │             │          │          │          │          │          │ */
-       &kp CAPS    &kp A      &kp R      &kp S      &kp T      &kp G               &kp M         &kp N      &kp E      &kp I      &kp O     &none 
-       /* &soft_off     &kp A      &kp R      &kp S      &kp T      &kp G               &kp M         &kp N      &kp E      &kp I      &kp O     &none  */
+       &kp CAPS    &kp A      &kp R      &kp S      &kp T     &kp G               &kp M         &kp N      &kp E      &kp I      &kp O     &none 
 /*    ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤        ├─────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤ */
 /*    │          │          │          │          │          │          │        │             │          │          │          │          │          │ */
-       &kp LS(LG(N4))  &kp Z      &kp X      &kp C      &kp D      &kp V               &kp K         &kp H      &kp COMMA  &kp DOT    &kp LS(N7) &none
+       &kp LS(LG(N4))  &kp Z      &kp X      &kp C      &kp D &kp V               &kp K         &kp H      &kp COMMA  &kp DOT    &kp LS(N7) &none
 /*    ╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤        ├─────────────┼──────────┼──────────┼──────────┴──────────┴──────────╯ */
 /*                                     │          │          │          │        │             │          │          │                                  */
                                         &mt LALT ESC   &lt 1 BSPC &mt LGUI TAB    &mt RCTRL RET &lt 1 SPACE &kp RALT
 /*                                     ╰──────────┴──────────┴──────────╯        ╰─────────────┴──────────┴──────────╯ */
-
       >;
     };
     layer_two {
       display-name = "Layer two";
       bindings = <
-
 /*    ╭──────────┬───────────┬──────────┬───────────┬───────────────┬─────────────╮   ╭─────────────┬──────────┬──────────┬──────────┬────────────┬─────────────╮ */
-/*    │          │           │          │           │               │             │   │             │          │          │          │            │             │ */
+/*    │          │     |     │     @    │     &     │       \       │      ~      │   │      +      │    7     │    8     │    9     │  ZOOM IN   │  ZOOM OUT   │ */
        &none      &kp LA(N7)  &kp RA(N2) &kp LS(N6)  &kp LA(LS(N7))  &kp RA(RBKT)      &kp KP_PLUS   &kp N7     &kp N8     &kp N9     &kp LG(FSLH) &kp LG(MINUS)
 /*    ├──────────┼───────── ─┼──────────┼───────── ─┼─────     ─────┼─────   ─────┤   ├─────────────┼──────────┼──────────┼──────────┼────────────┼─────────────┤ */
-/*    │          │           │          │           │               │             │   │             │          │          │          │            │             │ */
+/*    │          │           │          │     #     │       $       │      %      │   │      =      │    8     │    5     │    6     │            │             │ */
        &none      &kp A       &kp R      &kp LS(N3)  &kp LA(N4)      &kp LS(N5)        &kp LS(N0)    &kp N4     &kp N5     &kp N6     &kp O        &none
 /*    ├──────────┼───────────┼──────────┼───────────┼───────────────┼─────────────┤   ├─────────────┼──────────┼──────────┼──────────┼────────────┼─────────────┤ */
-/*    │          │           │          │           │               │             │   │             │          │          │          │            │             │ */
+/*    │          │           │    `     │     <     │               │             │   │      *      │    9     │    2     │    3     │            │             │ */
        &none      &kp Z       &kp PLUS   &kp GRAVE   &kp LS(GRAVE)   &kp V             &kp PIPE      &kp N1     &kp N2     &kp N3     &kp FSLH     &none
 /*    ╰──────────┴───────────┴──────────┼───────────┼───────────────┼─────────────┤   ├─────────────┼──────────┼──────────┼──────────┴────────────┴─────────────╯ */
-/*                                      │           │               │             │   │             │          │          │                                  */
+/*                                      │           │               │             │   │             │          │    0     │                                  */
                                          &none       &kp LEFT        &kp RIGHT         &kp DOWN      &kp UP     &kp N0
 /*                                      ╰───────────┴───────────────┴─────────────╯   ╰─────────────┴──────────┴──────────╯ */
-            
-                
-                
-
       >;
     };
     layer_three {
       display-name = "Layer three";
       bindings = <
-                
-
 /*    ╭──────────┬──────────┬──────────────┬──────────────┬───────────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮ */
 /*    │          │          │              │              │               │          │   │          │          │          │          │          │          │ */
        &kp TAB    &kp Q      &kp LC(LA(N7)) &kp LC(LA(N8)) &kp LC(LA(N9))  &kp B          &kp J      &kp LC(LA(LS(N7)))     &kp LC(LA(LS(N8)))     &kp LC(LA(LS(N9)))     &kp O      &kp BSPC
@@ -89,8 +73,6 @@
 /*                                         │              │               │          │   │          │          │          │                                  */
                                             &kp LGUI       &kp BSPC        &kp SPACE      &kp RET    &kp SPACE  &kp A 
 /*                                         ╰──────────────┴───────────────┴──────────╯   ╰──────────┴──────────┴──────────╯ */
-    
-
       >;
     };
 

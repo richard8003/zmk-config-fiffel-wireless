@@ -3,10 +3,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include "keypos.dtsi"
-
-/* ---------- BEHAVIOR OVERRIDE (TOP-LEVEL, not inside /{ }) ---------- */
-// Den här gör att jag kan hålla inne en knapp för upprepning även om jag har en modifier på samma knapp
-// exempel backspace som även är layer 1
+#include "combos.dtsi"
 
 
 &lt {
@@ -14,7 +11,7 @@
 }; 
 
 &soft_off {
-   hold-time-ms = <2000>; // Only turn off it the key is held for 5 seconds or longer.
+   hold-time-ms = <2000>; 
 };
 / {
 

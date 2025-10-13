@@ -42,7 +42,7 @@
         CAPS_LOCK  &kp A      &kp R      &kp S      &kp T      &kp G               &kp M         &kp N      &kp E      &kp I      &kp O      &none 
 /*    ├───────────┼──────────┼──────────┼──────────┼──────────┼──────────┤        ├─────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤ */
 /*    │           │          │          │          │          │          │        │             │          │          │          │          │          │ */
-       SCREENSHOT  &kp Z      &kp X      &kp C      &kp D      &kp V               &kp K         &kp H      &kp COMMA  &kp DOT    &kp LS(N7) &none
+       SCREENSHOT  &kp Z      &kp X      &kp C      &kp D      &kp V               &kp K         &kp H      &kp COMMA  &kp DOT    &kp LS(N7) &soft_off
 /*    ╰───────────┴──────────┴──────────┼──────────┼──────────┼──────────┤        ├─────────────┼──────────┼──────────┼──────────┴──────────┴──────────╯ */
 /*                                      │          │          │          │        │             │          │          │                                  */
                                            ALT_ESC    L1_BSPC   CMD_TAB              CTRL_RET      L1_SPC      ALT

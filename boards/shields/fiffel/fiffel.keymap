@@ -4,7 +4,21 @@
 #include <dt-bindings/zmk/bt.h>
 #include "keypos.dtsi"
 
-#define CAPS_LOCK  &kp CAPS
+#define CAPS_LOCK   &kp CAPS
+#define FLAMESHOT   &kp LS(LG(X))
+#define SCREENSHOT  &kp LS(LG(X))
+#define ALT_ESC     &mt LALT ESC
+#define L1_BSPC     &lt 1 BSPC 
+#define CMD_TAB     &mt LGUI TAB
+#define CTRL_RET    &mt RCTRL RET 
+#define L1_SPC      &lt 1 SPACE 
+#define ALT         &kp RALT
+
+  
+
+    
+
+
 
 &lt {
    quick-tap-ms = <200>;
@@ -28,17 +42,20 @@
       bindings = <
 /*    ╭───────────────┬──────────┬──────────┬──────────┬──────────┬──────────╮        ╭─────────────┬──────────┬──────────┬──────────┬──────────┬──────────╮ */
 /*    │ Flameshot     │    Q     │          │          │          │          │        │             │          │          │          │          │          │ */
-       &kp LS(LG(X))   &kp Q      &kp W      &kp F      &kp P      &kp B               &kp J         &kp L      &kp U      &kp Y      &kp O      &kp BSPC
+       FLAMESHOT       &kp Q      &kp W      &kp F      &kp P      &kp B               &kp J         &kp L      &kp U      &kp Y      &kp O      &kp BSPC
+       /* &kp LS(LG(X))   &kp Q      &kp W      &kp F      &kp P      &kp B               &kp J         &kp L      &kp U      &kp Y      &kp O      &kp BSPC */
 /*    ├───────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤        ├─────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤ */
 /*    │ Caps lock     │    A     │          │          │          │          │        │             │          │          │          │          │          │ */
-        CAPS_LOCK        &kp A      &kp R      &kp S      &kp T      &kp G               &kp M         &kp N      &kp E      &kp I      &kp O     &none 
+       CAPS_LOCK       &kp A      &kp R      &kp S      &kp T      &kp G               &kp M         &kp N      &kp E      &kp I      &kp O     &none 
        /* &kp CAPS        &kp A      &kp R      &kp S      &kp T      &kp G               &kp M         &kp N      &kp E      &kp I      &kp O     &none  */
 /*    ├───────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤        ├─────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤ */
 /*    │Screenshot     │    Z     │          │          │          │          │        │             │          │          │          │          │          │ */
-       &kp LS(LG(N4))  &kp Z      &kp X      &kp C      &kp D      &kp V               &kp K         &kp H      &kp COMMA  &kp DOT    &kp LS(N7) &none
+       SCREENSHOT      &kp Z      &kp X      &kp C      &kp D      &kp V               &kp K         &kp H      &kp COMMA  &kp DOT    &kp LS(N7) &none
+       /* &kp LS(LG(N4))  &kp Z      &kp X      &kp C      &kp D      &kp V               &kp K         &kp H      &kp COMMA  &kp DOT    &kp LS(N7) &none */
 /*    ╰───────────────┴──────────┴──────────┼──────────┼──────────┼──────────┤        ├─────────────┼──────────┼──────────┼──────────┴──────────┴──────────╯ */
 /*                                          │          │          │          │        │             │          │          │                                  */
-                                       &mt LALT ESC  &lt 1 BSPC &mt LGUI TAB    &mt RCTRL RET &lt 1 SPACE &kp RALT
+                                                ALT_ESC   L1_BSPC   CMD_TAB              CTRL_RET   L1_SPC   ALT
+                                       /* &mt LALT ESC  &lt 1 BSPC &mt LGUI TAB    &mt RCTRL RET &lt 1 SPACE &kp RALT */
 /*                                          ╰──────────┴──────────┴──────────╯        ╰─────────────┴──────────┴──────────╯ */
       >;
     };

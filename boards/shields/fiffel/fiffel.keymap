@@ -36,8 +36,7 @@
        &kp LS(LG(N4))  &kp Z      &kp X      &kp C      &kp D      &kp V               &kp K         &kp H      &kp COMMA  &kp DOT    &kp LS(N7) &none
 /*    ╰───────────────┴──────────┴──────────┼──────────┼──────────┼──────────┤        ├─────────────┼──────────┼──────────┼──────────┴──────────┴──────────╯ */
 /*                                          │          │          │          │        │             │          │          │                                  */
-                                       /* &mt LALT ESC  &lt 1 BSPC &mt LGUI TAB    &mt RCTRL RET &lt 1 SPACE &kp RALT */
-                                                     ALT_ESC    &lt 1 BSPC &mt LGUI TAB    &mt RCTRL RET &lt 1 SPACE &kp RALT
+                                       &mt LALT ESC  &lt 1 BSPC &mt LGUI TAB    &mt RCTRL RET &lt 1 SPACE &kp RALT
 /*                                          ╰──────────┴──────────┴──────────╯        ╰─────────────┴──────────┴──────────╯ */
       >;
     };

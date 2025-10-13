@@ -112,8 +112,6 @@ combo_email_address {
   bindings = <&kp LC(LG(LA(P)))>;
 };
 
-
-
 //associated
 combo_associated {
   timeout-ms = <50>;

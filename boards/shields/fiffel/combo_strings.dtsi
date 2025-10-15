@@ -333,17 +333,17 @@ combo_admin {
       bindings = <k_vol_up>;
     };
 
-    combo_vol_down  {
-      timeout-ms = <50>;
-      key-positions = <12 13>;  
-      bindings = <k_vol_down>;
-    };
-
-    combo_power  {
-      timeout-ms = <50>;
-      key-positions = <11 23>;  
-      bindings = <&soft_off>;
-    };
+    /* combo_vol_down  { */
+    /*   timeout-ms = <50>; */
+    /*   key-positions = <12 13>;   */
+    /*   bindings = <k_vol_down>; */
+    /* }; */
+    /**/
+    /* combo_power  { */
+    /*   timeout-ms = <50>; */
+    /*   key-positions = <11 23>;   */
+    /*   bindings = <&soft_off>; */
+    /* }; */
 
 
 

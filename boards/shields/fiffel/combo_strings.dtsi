@@ -335,7 +335,7 @@ combo_admin {
 
     combo_vol_down  {
       timeout-ms = <50>;
-      key-positions = <1 2>;  
+      key-positions = <12 13>;  
       bindings = <k_vol_down>;
     };
 

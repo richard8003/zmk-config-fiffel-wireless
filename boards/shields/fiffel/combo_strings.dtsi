@@ -327,11 +327,11 @@ combo_admin {
       bindings = <&sl 2>;
     };
 
-    combo_vol_up  {
-      timeout-ms = <50>;
-      key-positions = <1 2>;  
-      bindings = <k_vol_up>;
-    };
+    /* combo_vol_up  { */
+    /*   timeout-ms = <50>; */
+    /*   key-positions = <1 2>;   */
+    /*   bindings = <k_vol_up>; */
+    /* }; */
 
     /* combo_vol_down  { */
     /*   timeout-ms = <50>; */

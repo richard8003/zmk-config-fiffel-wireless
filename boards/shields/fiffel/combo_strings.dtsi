@@ -333,6 +333,11 @@ combo_admin {
       bindings = <&sk LSHFT>;
     };
 
+    combo_msft_two  {
+      timeout-ms = <50>;
+      key-positions = <14 21>;  
+      bindings = <&sk LSHFT>;
+    };
     /* combo_vol_down  { */
     /*   timeout-ms = <50>; */
     /*   key-positions = <12 13>;   */

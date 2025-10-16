@@ -53,6 +53,19 @@
     layer_two {
       display-name = "Layer two";
       bindings = <
+/* #define SLASH       &kp LA(N7) */
+/* #define AT          &kp RA(N2) */
+/* #define AND         &kp LS(N6)   */
+/* #define BACKSLASH   &kp LA(LS(N7)) */
+/* #define TILDA       &kp RA(RBKT) */
+/* #define HASH        &kp LS(N3) */
+/* #define DOLLAR      &kp LA(N4) */
+/* #define PROCENT     &kp LS(N5) */
+/* #define MORE_THAN   &kp PLUS */
+/* #define MORE_THAN   &kp GRAVE  */
+/* #define LESS_THAN   &kp LS(GRAVE) */
+
+
 /*    ╭──────────┬───────────┬──────────┬───────────┬───────────────┬─────────────╮   ╭─────────────┬──────────┬──────────┬──────────┬────────────┬─────────────╮ */
 /*    │          │     |     │     @    │     &     │       \       │      ~      │   │      +      │    7     │    8     │    9     │  ZOOM IN   │  ZOOM OUT   │ */
        &none      &kp LA(N7)  &kp RA(N2) &kp LS(N6)  &kp LA(LS(N7))  &kp RA(RBKT)      &kp KP_PLUS   &kp N7     &kp N8     &kp N9     &kp LG(FSLH) &kp LG(MINUS)

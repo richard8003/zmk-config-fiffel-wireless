@@ -329,13 +329,13 @@ combo_admin {
 
     combo_msft  {
       timeout-ms = <50>;
-      key-positions = <15 20>;  
+      key-positions = <16 37>;  
       bindings = <&sk LSHFT>;
     };
 
     combo_msft_two  {
       timeout-ms = <50>;
-      key-positions = <14 21>;  
+      key-positions = <19 40>;  
       bindings = <&sk LSHFT>;
     };
     /* combo_vol_down  { */

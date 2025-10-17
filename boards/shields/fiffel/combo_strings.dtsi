@@ -163,17 +163,17 @@ combo_admin {
       bindings = <&kp LALT>;
     };
             
-    combo_left_shift {
-      timeout-ms = <50>;
-      key-positions = <15 16>;
-      bindings = <&kp RSFT>;   
-    };
-
-    combo_right_shift {
-      timeout-ms = <50>;
-      key-positions = <19 20>;
-      bindings = <&kp RSFT>;  
-    };
+    /* combo_left_shift { */
+    /*   timeout-ms = <50>; */
+    /*   key-positions = <15 16>; */
+    /*   bindings = <&kp RSFT>;    */
+    /* }; */
+    /**/
+    /* combo_right_shift { */
+    /*   timeout-ms = <50>; */
+    /*   key-positions = <19 20>; */
+    /*   bindings = <&kp RSFT>;   */
+    /* }; */
 
     combo_single_quote {
       timeout-ms = <50>;

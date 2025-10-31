@@ -6,7 +6,7 @@
 
 #define CAPS_LOCK   &kp CAPS
 #define FLAMESHOT   &kp LS(LG(X))
-#define SCREENSHOT  &kp LG(X)
+#define SCREENSHOT  &kp LS(LG(4))
 #define ALT_ESC     &mt LALT ESC
 #define L1_BSPC     &lt 1 BSPC 
 #define CMD_TAB     &mt LGUI TAB
@@ -74,11 +74,11 @@
 /*    ╭──────────┬───────────┬──────────┬───────────┬───────────────┬─────────────╮   ╭─────────────┬──────────┬──────────┬──────────┬────────────┬─────────────╮ */
 /*    │          │     |     │     @    │     &     │       \       │      ~      │   │      +      │    7     │    8     │    9     │  ZOOM IN   │  ZOOM OUT   │ */
        /* &none         SLASH        AT         AND        BACKSLASH        TILDA         &kp KP_PLUS   &kp N7     &kp N8     &kp N9       ZOOM_IN      ZOOM_OUT  */
-       &none      &kp LA(N7)  &kp RA(N2) &kp LS(N6)  &kp LA(LS(N7))  &kp RA(RBKT)      &kp KP_PLUS   &kp N7     &kp N8     &kp N9     &kp LG(FSLH) &kp LG(MINUS)
+       &kp LC(LG(LA(U)))      &kp LA(N7)  &kp RA(N2) &kp LS(N6)  &kp LA(LS(N7))  &kp RA(RBKT)      &kp KP_PLUS   &kp N7     &kp N8     &kp N9     &kp LG(FSLH) &kp LG(MINUS)
 /*    ├──────────┼───────── ─┼──────────┼───────── ─┼─────     ─────┼─────   ─────┤   ├─────────────┼──────────┼──────────┼──────────┼────────────┼─────────────┤ */
 /*    │          │           │          │     #     │       $       │      %      │   │      =      │    8     │    5     │    6     │            │             │ */
        /* &none      &kp A       &kp R         HASH          DOLLAR        PROCENT            EQUAL     &kp N4     &kp N5     &kp N6     &kp O        &none */
-       &none      &kp A       &kp R      &kp LS(N3)  &kp LA(N4)      &kp LS(N5)        &kp LS(N0)    &kp N4     &kp N5     &kp N6     &kp O        &none
+       &kp LC(LG(LA(V)))      &kp A       &kp R      &kp LS(N3)  &kp LA(N4)      &kp LS(N5)        &kp LS(N0)    &kp N4     &kp N5     &kp N6     &kp O        &none
 /*    ├──────────┼───────────┼──────────┼───────────┼───────────────┼─────────────┤   ├─────────────┼──────────┼──────────┼──────────┼────────────┼─────────────┤ */
 /*    │          │     `     │    <     │     >     │               │             │   │      *      │    9     │    2     │    3     │            │             │ */
        /* &none       ODD_TICK   MORE_THAN   LESS_THAN       &none         &kp V              PIPE      &kp N1     &kp N2     &kp N3     &kp FSLH     &none */

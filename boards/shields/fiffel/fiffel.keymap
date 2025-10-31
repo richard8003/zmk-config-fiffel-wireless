@@ -6,7 +6,7 @@
 
 #define CAPS_LOCK   &kp CAPS
 #define FLAMESHOT   &kp LS(LG(X))
-#define SCREENSHOT  &kp LS(LG(X))
+#define SCREENSHOT  &kp LG(X)
 #define ALT_ESC     &mt LALT ESC
 #define L1_BSPC     &lt 1 BSPC 
 #define CMD_TAB     &mt LGUI TAB

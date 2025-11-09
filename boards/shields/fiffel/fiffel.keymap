@@ -27,6 +27,7 @@
 
   combos {
     #include "combos_strings.dtsi"
+    #include "combos_layer_2.dtsi"
     compatible = "zmk,combos";
   };
 

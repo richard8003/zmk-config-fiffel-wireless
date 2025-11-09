@@ -1,0 +1,212 @@
+#include "keypos.dtsi"
+
+combo_copy {
+  timeout-ms = <49>;
+  key-positions = <POS_T POS_G>;
+  bindings = <&kp LG(C)>;
+};
+
+combo_cut {
+  timeout-ms = <49>;
+  key-positions = <POS_P POS_B>;
+  bindings = <&kp LG(X)>;
+};
+
+combo_paste {
+  timeout-ms = <49>;
+  key-positions = <POS_D POS_V>;
+  bindings = <&kp LG(V)>;
+};
+
+combo_esc {
+  timeout-ms = <49>;
+  key-positions = <POS_E POS_I>;
+  bindings = <&kp ESC>;
+};
+        
+combo_alt {
+  timeout-ms = <49>;
+  key-positions = <13 15>;
+  bindings = <&kp LALT>;
+};
+        
+combo_single_quote {
+  timeout-ms = <49>;
+  key-positions = <7 19>;
+  bindings = <&kp BSLH>;  
+};
+
+combo_double_quote {
+  timeout-ms = <49>;
+  key-positions = <6 18>;
+  bindings = <&kp LS(N1)>;  
+};
+
+combo_double_hyphen {
+  timeout-ms = <49>;
+  key-positions = <POS_T POS_SLSH>;
+  bindings = <&kp FSLH>;  
+};
+
+
+combo_double_lower_hyphen {
+  timeout-ms = <49>;
+  key-positions = <POS_N POS_D>;
+  bindings = <&kp LS(FSLH)>;  
+};
+
+combo_question_mark {
+  timeout-ms = <49>;
+  key-positions = <7 9>;
+  bindings = <&kp LS(MINUS)>;  
+};
+
+combo_bang {
+  timeout-ms = <49>;
+  key-positions = <0 2>;
+  bindings = <&kp LS(N0)>;  
+};
+
+combo_opening_bracket {
+    timeout-ms = <49>;
+    key-positions = <15 19>; 
+    bindings = <&kp LA(N7)>; 
+};
+
+combo_closing_bracket {
+    timeout-ms = <49>;
+    key-positions = <15 20>;   
+    bindings = <&kp LA(N8)>; 
+};
+
+combo_opening_parent {
+    timeout-ms = <49>;
+    key-positions = <15 7>;   
+    bindings = <&kp LS(N7)>;
+};
+
+combo_closing_parent {
+    timeout-ms = <49>;
+    key-positions = <15 8>;   
+    bindings = <&kp LS(N8)>; 
+};
+
+combo_opening_curly {
+    timeout-ms = <49>;
+    key-positions = <15 31>;   
+    bindings = <&kp LA(LS(N7))>; 
+};
+
+combo_closing_curly {
+    timeout-ms = <49>;
+    key-positions = <15 32>;   
+    bindings = <&kp LA(LS(N8))>; 
+};
+
+combo_ret_i_ao {
+  timeout-ms = <49>;
+  key-positions = <39 8>;
+  bindings = <&kp LBKT>;   
+};
+
+combo_ret_i_ae {
+  timeout-ms = <49>;
+  key-positions = <39 20>;
+  bindings = <&kp SQT>;   
+};
+
+combo_ret_i_oe {
+  timeout-ms = <49>;
+  key-positions = <39 21>;
+  bindings = <&kp SCLN>;   
+};
+
+combo_tabnext {
+  timeout-ms = <49>;
+  key-positions = <2 16>;
+  bindings = <&kp LC(TAB)>;   
+};
+
+combo_tabprev {
+  timeout-ms = <49>;
+  key-positions = <2 2>;
+  bindings = <&kp LC(LS(TAB))>;   
+};
+
+combo_delete_line {
+  timeout-ms = <49>;
+  key-positions = <9 11>;  
+  bindings = <&kp LG(BSPC)>;
+};
+
+combo_delete_word  {
+  timeout-ms = <49>;
+  key-positions = <POS_R POS_S POS_T>;  
+  bindings = <&kp LA(BSPC)>;
+};
+
+combo_select_all  {
+  timeout-ms = <49>;
+  key-positions = <1 3 4>;  
+  bindings = <&kp LG(A)>;
+};
+
+combo_word_n  {
+  timeout-ms = <49>;
+  key-positions = <POS_X POS_C>;  
+  bindings = <&kp LA(LEFT)>;
+};
+
+combo_word_p  {
+  timeout-ms = <49>;
+  key-positions = <POS_DOT POS_COM>;  
+  bindings = <&kp LA(RIGHT)>;
+};
+
+combo_layer_nav  {
+  timeout-ms = <49>;
+  key-positions = <POS_DOT POS_COM>;  
+  bindings = <&kp LA(RIGHT)>;
+};
+
+combo_l2_left  {
+  timeout-ms = <49>;
+  key-positions = <POS_A POS_R POS_S POS_T>;  
+  bindings = <&sl 1>;
+};
+
+combo_l2_right  {
+  timeout-ms = <49>;
+  key-positions = <POS_N POS_E POS_I POS_O>;  
+  bindings = <&sl 1>;
+};
+
+combo_msft  {
+  timeout-ms = <49>;
+  key-positions = <14 16>;  
+  bindings = <&sk LSHFT>;
+};
+
+combo_msft_two  {
+  timeout-ms = <49>;
+  key-positions = <18 20>;  
+  bindings = <&sk LSHFT>;
+};
+/* combo_vol_down  { */
+/*   timeout-ms = <49>; */
+/*   key-positions = <11 13>;   */
+/*   bindings = <k_vol_down>; */
+/* }; */
+/**/
+/* combo_power  { */
+/*   timeout-ms = <49>; */
+/*   key-positions = <10 23>;   */
+/*   bindings = <&soft_off>; */
+/* }; */
+
+
+
+
+
+
+

@@ -5,7 +5,7 @@ combo_please {
   timeout-ms = <50>;
   key-positions = <POS_P POS_L>;
   bindings = <&kp LC(LG(LA(A)))>;
-  /* layers = <2>; */
+  // layers = <2>;
 };
 
 // academy

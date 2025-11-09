@@ -1,4 +1,3 @@
-#include "keypos.dtsi"
 combo_copy {
     timeout-ms = <49>;
     key-positions = <POS_T POS_G>;
@@ -191,20 +190,6 @@ combo_msft_two  {
     bindings = <&sk LSHFT>;
     layers = <0>;
 };
-/* combo_vol_down  { */
-/*   timeout-ms = <49>; */
-/*   key-positions = <11 13>;   */
-/*   bindings = <k_vol_down>; */
-/* }; */
-    /* layers = <0>; */
-/**/
-/* combo_power  { */
-/*   timeout-ms = <49>; */
-/*   key-positions = <10 23>;   */
-/*   bindings = <&soft_off>; */
-/* }; */
-    /* layers = <0>; */
-
 
 
 

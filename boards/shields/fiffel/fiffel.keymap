@@ -28,6 +28,7 @@
   combos {
     #include "combos_strings.dtsi"
     #include "combos_layer1.dtsi"
+    #include "combos_media.dtsi"
     compatible = "zmk,combos";
   };
 

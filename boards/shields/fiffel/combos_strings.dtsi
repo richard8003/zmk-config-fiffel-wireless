@@ -5,7 +5,6 @@ combo_please {
   timeout-ms = <50>;
   key-positions = <POS_P POS_L>;
   bindings = <&kp LC(LG(LA(A)))>;
-  // layers = <2>;
 };
 
 // academy
@@ -339,21 +338,3 @@ combo_admin {
       key-positions = <19 20>;  
       bindings = <&sk LSHFT>;
     };
-    /* combo_vol_down  { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <12 13>;   */
-    /*   bindings = <k_vol_down>; */
-    /* }; */
-    /**/
-    /* combo_power  { */
-    /*   timeout-ms = <50>; */
-    /*   key-positions = <11 23>;   */
-    /*   bindings = <&soft_off>; */
-    /* }; */
-
-
-
-
-
-
-

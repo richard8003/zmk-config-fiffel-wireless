@@ -25,10 +25,10 @@
 
 / {
 
-  /* combos { */
-  /*   #include "combo_strings.dtsi" */
-  /*   compatible = "zmk,combos"; */
-  /* }; */
+  combos {
+    #include "combo_strings.dtsi"
+    compatible = "zmk,combos";
+  };
 
   keymap {
     compatible = "zmk,keymap";

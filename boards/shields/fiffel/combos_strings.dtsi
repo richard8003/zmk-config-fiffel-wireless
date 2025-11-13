@@ -452,7 +452,6 @@ combo_delete_word  {
 };
 combo_select_all  {
     timeout-ms = <49>;
-    key-positions = <1 3 4>;  
     bindings = <&kp LG(A)>;
     layers = <0>;
 };

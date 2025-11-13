@@ -1,8 +1,0 @@
-#include "keypos.dtsi"
-
-combo_v_down  {
-    timeout-ms = <49>;
-    key-positions = <12 13 14>;  
-    bindings = <k_vol_down>;
-    layers = <0>;
-};

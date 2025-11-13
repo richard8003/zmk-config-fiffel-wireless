@@ -188,13 +188,13 @@ combo_l2_right  {
 combo_msft  {
     timeout-ms = <49>;
     key-positions = <14 16>;  
-    bindings = <&sk LSHFT>;
+    bindings = <&kp LSHFT>;
     layers = <0>;
 };
 combo_msft_two  {
     timeout-ms = <49>;
     key-positions = <18 20>;  
-    bindings = <&sk LSHFT>;
+    bindings = <&kt LSHFT>;
     layers = <0>;
 };
 

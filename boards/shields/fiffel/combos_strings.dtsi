@@ -331,14 +331,14 @@ combo_l2_right {
 
 combo_msft {
   timeout-ms = <49>;
-  key-positions = <14 16>;
+  key-positions = <15 16>;
   bindings = <&kt LSHFT>;
   layers = <0>;
 };
 
 combo_msft_two {
   timeout-ms = <49>;
-  key-positions = <18 20>;
+  key-positions = <19 20>;
   bindings = <&kp LSHFT>;
   layers = <0>;
 };

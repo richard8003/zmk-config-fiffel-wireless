@@ -1,3 +1,10 @@
+#include "keypos.dtsi"
+combo_i {
+    timeout-ms = <49>;
+    key-positions = <POS_I POS_R>;
+    bindings = <&kp LS(I)>;
+    layers = <0>;
+};
 combo_copy {
     timeout-ms = <49>;
     key-positions = <POS_T POS_G>;

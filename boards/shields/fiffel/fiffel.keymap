@@ -27,7 +27,7 @@
 
   combos {
     /* #include "combos_strings.dtsi" */
-#include "keypos.dtsi"
+    #include "keypos.dtsi"
     compatible = "zmk,combos";
         /* Word / phrase combos */
         combo_please {
@@ -219,49 +219,49 @@
         combo_bang {
           timeout-ms = <50>;
           key-positions = <1 2>;
-          bindings = <&kp LS(N0)>;
+          bindings = <&kp LS(N1)>;
           layers = <0>;
         };
 
         combo_opening_bracket {
-          timeout-ms = <47>;
+          timeout-ms = <50>;
           key-positions = <16 19>;
-          bindings = <&kp LA(N7)>;
+          bindings = <&kp LA(N8)>;
           layers = <0>;
         };
 
         combo_closing_bracket {
           timeout-ms = <50>;
           key-positions = <16 20>;
-          bindings = <&kp LA(N8)>;
+          bindings = <&kp LA(N9)>;
           layers = <0>;
         };
 
         combo_opening_parent {
           timeout-ms = <50>;
           key-positions = <16 7>;
-          bindings = <&kp LS(N7)>;
+          bindings = <&kp LS(N8)>;
           layers = <0>;
         };
 
         combo_closing_parent {
           timeout-ms = <50>;
           key-positions = <16 8>;
-          bindings = <&kp LS(N8)>;
+          bindings = <&kp LS(N9)>;
           layers = <0>;
         };
 
         combo_opening_curly {
           timeout-ms = <50>;
           key-positions = <16 31>;
-          bindings = <&kp LA(LS(N7))>;
+          bindings = <&kp LA(LS(N8))>;
           layers = <0>;
         };
 
         combo_closing_curly {
           timeout-ms = <50>;
           key-positions = <16 32>;
-          bindings = <&kp LA(LS(N8))>;
+          bindings = <&kp LA(LS(N9))>;
           layers = <0>;
         };
 
